@@ -1,0 +1,44 @@
+@import "asset";
+@use-vw: true;
+@vw:1080;
+
+.one { font-family: SamsungOne, sans-serif; }
+.sharp-b { font-family: "Samsung Sharp Sans Bold", sans-serif; }
+.sharp-m { font-family: "Samsung Sharp Sans Medium", sans-serif; }
+.sharp-r { font-family: "Samsung Sharp Sans Regular", sans-serif; }
+.b-color { color:#0082b2; }
+img { backface-visibility: hidden; display: block; }
+p, h2 { mix-blend-mode: multiply; .keep-all; }
+
+html { .one; }
+.container {
+  .wrap { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/test-bg.png'); .no-repeat; .wh(1080,2673); .p(85,70); .-box;
+    header {
+      .tit { .fs(54); .lh(65); .bold; .b-color; }
+    }
+    article { .tc;
+      .visual {
+        h2 { .fs(88); .b-color; .bold; .lh(105); .mt(127); }
+      }
+    }
+    .content { .mt(44);
+      .cont-p { .fs(44); .b-color; .regular; }
+      img { .wh(940,507); .mt(146); }
+      .txt { .fs(32); .lh(40); .mt(100); color:#808285; .light; .tl; }
+    }
+
+    &.d-type { background: none; .h(2081);
+      article {
+        .visual {
+          h2 { color:#58595b; .mt(36); }
+          h2 + p { .fs(56); .lh(66); .b-color; .bold; .mt(20); }
+        }
+        .content { .mt(123);
+          .cont-p { color:#404040; }
+          img { .wh(940,331); .mt(130); }
+          .txt { .mt(140); }
+        }
+      }
+    }
+  }
+}
