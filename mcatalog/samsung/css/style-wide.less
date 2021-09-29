@@ -1,0 +1,49 @@
+@import "asset";
+@use-vw: true;
+@vw:2048;
+
+.one { font-family: SamsungOne, sans-serif; }
+.sharp-b { font-family: "Samsung Sharp Sans Bold", sans-serif; }
+.sharp-m { font-family: "Samsung Sharp Sans Medium", sans-serif; }
+.sharp-r { font-family: "Samsung Sharp Sans Regular", sans-serif; }
+.b-color { color:#0082b2; }
+img { backface-visibility: hidden; display: block; }
+p, h2 { mix-blend-mode: multiply; .keep-all; }
+
+html { .one; }
+
+@media screen and (min-width: 1081px) {
+  .container {
+    .wrap { .contain('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004001_01.png'); .no-repeat; .wh(2048,1536); .p(46,56); .-box;
+      header {
+        .tit { .fs(44); .lh(55); .b-color; .pl(27); .-box; .rel; .sharp-b;
+          &:after { .cnt; .wh(11,32); .bgc(#006195); .abs; .lt(0,7); }
+        }
+      }
+      article { .tl;
+        .visual {
+          h2 { .fs(80); .b-color; .bold; .lh(89); .mt(132); .sharp-b; }
+        }
+      }
+      .content { .mt(45); .tl;
+        .cont-p { .fs(28); .lh(38); .b-color; .regular; .w(1200); }
+        img { .wh(646,348); .mt(23); }
+        .txt { .fs(24); .lh(28); .mt(147); color:#808285; .light; .tl; .w(1220);}
+      }
+
+      &.d-type { background: none; .h(1536); .rel;
+        article {
+          .visual {
+            h2 { .fs(88); color:#58595b; .mt(198); }
+            h2 + p { .fs(40); .lh(49); .b-color; .bold; .mt(56); .sharp-b; }
+          }
+          .content { .mt(135);
+            .cont-p { .fs(36); .lh(45); color:#404040; .w(810); }
+            img { .wh(928,464); .abs; .lt(1038,580); .mt(0); }
+            .txt { .mt(287); .w(1380); }
+          }
+        }
+      }
+    }
+  }
+}
