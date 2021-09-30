@@ -28,7 +28,7 @@ h2 {
 html {
   font-family: SamsungOne, sans-serif;
 }
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 800px) {
   .container .wrap {
     background-image: url('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004001_01.png');
     background-size: contain;

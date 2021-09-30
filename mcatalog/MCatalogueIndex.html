@@ -8,14 +8,20 @@
   <style>
     html { font-family: SamsungOne, sans-serif; }
     h1,h2,h3,h4 { margin: 0;}
-    .container { width: 700px; margin: 0 auto; color:#58595b; }
-    .container h2 { font-size: 28px; font-family: "Samsung Sharp Sans Bold", sans-serif; margin: 15px 0; text-align: center; }
+    .container { font-size: 3vw; width: 100%; margin: 0 auto; color:#58595b; max-width: 700px; letter-spacing: -0.05em}
+    .container h2 { font-size: 4vw; font-family: "Samsung Sharp Sans Bold", sans-serif; margin: 15px 0; text-align: center; }
     .container table { border:1px solid #ccc; table-layout: fixed; }
-    .container table tr td { height: 30px; line-height: 30px; padding-left: 20px; box-sizing: border-box; }
-    .container table tr td h3 { padding: 10px 0; box-sizing: border-box; }
+    .container table tr td { height: 5vw; line-height: 5vw; padding-left: 1.5vw; box-sizing: border-box; }
+    .container table tr td h3 { padding: 1vw 0; box-sizing: border-box; }
     .container table tr td a { text-decoration: none; color:#006d9e; }
-    .container .ok { background: linear-gradient(to top, yellow 50%, transparent 50%); }
-    .container span {font-size: 17px; color: #333; line-height: 30px; float: right; display: inline-block; width: 150px; padding-left: 20px;  }
+    .container .ok { background: linear-gradient(to top, yellow 50%, transparent 60%); }
+    .container span { color: #333; float: right; display: inline-block; line-height: 4vw; width: 20vw; padding-left: 1.5vw;  }
+    @media screen and (min-width: 800px) {
+      .container { font-size: 17px; }
+      .container h2 { font-size: 25px; }
+      .container table tr td { height: 30px; line-height: 30px; }
+      .container span { line-height: 30px; width: 180px; padding-left: 10px;  }
+    }
   </style>
 </head>
 <body>
@@ -24,8 +30,8 @@
     <span class="ok">작업 완료표시</span>
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
       <colgroup>
-        <col width="150px">
-        <col width="550px">
+        <col width="25%">
+        <col width="75%">
       </colgroup>
       <tr>
         <td style="border-bottom: 1px solid #ccc;"><h3>카달로그 코드</h3></td>
