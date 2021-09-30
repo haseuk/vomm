@@ -28,7 +28,7 @@ h2 {
 html {
   font-family: SamsungOne, sans-serif;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1081px) {
   .container .wrap {
     background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_03.png');
     background-size: contain;
