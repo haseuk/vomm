@@ -7,6 +7,7 @@
 .sharp-m { font-family: "Samsung Sharp Sans Medium", sans-serif; }
 .sharp-r { font-family: "Samsung Sharp Sans Regular", sans-serif; }
 .b-color { color:#0088b6; }
+.b2-color { color:#0082b2; }
 .g-color { color:#404040; }
 img { backface-visibility: hidden; display: block; }
 p, h2 { .keep-all; }
@@ -34,15 +35,24 @@ html { .one; }
         .txt { .fs(32); .lh(40); color:#808285; .light; .tl; .ls(-0.028em); }
       }
     }
-    // 004001
-    &.m004001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_bg.png'); .no-repeat; .h(3000);
-      p, h2 { mix-blend-mode: multiply; }
+
+    // first page 공통사항
+    &.fp {
       article {
+        p, h2 { mix-blend-mode: multiply; }
         .visual {
           h2 { .b-color; opacity: 1; }
         }
         .content {
-          .cont-p { .fs(44); .lh(52); .mt(0); .b-color; .sharp-m; .tc; }
+          .cont-p { .fs(44); .lh(52); .mt(0); .b-color; .sharp-m; }
+        }
+      }
+    }
+    // 004001
+    &.m004001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_bg.png'); .no-repeat; .h(3000);
+      article {
+        .content {
+          .cont-p { .tc; }
           img { .h(920); }
         }
       }
@@ -99,6 +109,47 @@ html { .one; }
           }
           .cont-p { .m(26,0,80); }
           .txt { .mt(160); }
+        }
+      }
+    }
+    // 004003
+    &.m004003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004003_bg.png'); .no-repeat; .h(2700);
+      article {
+        .visual {
+          h2 { .b2-color; .ls(-0.02em); opacity: 1; }
+        }
+      }
+    }
+    // 004001005
+    &.m004001005 {
+      article {
+        .content {
+          img { .h(1397); }
+        }
+      }
+    }
+    // 004001006
+    &.m004001006 {
+      article {
+        .content {
+          img { .h(2467); }
+        }
+      }
+    }
+    // 004001007
+    &.m004001007 {
+      article {
+        .content {
+          .cont-p { .ls(-0.001em); }
+          img { .h(2103); }
+        }
+      }
+    }
+    // 004003001
+    &.m004003001 {
+      article {
+        .content {
+          img { .wh(1080,2370); .ml(-70); }
         }
       }
     }

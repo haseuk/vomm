@@ -16,6 +16,9 @@
 .b-color {
   color: #0088b6;
 }
+.b2-color {
+  color: #0082b2;
+}
 .g-color {
   color: #404040;
 }
@@ -103,26 +106,28 @@ html {
   text-align: left;
   letter-spacing: -0.028em;
 }
+.container .wrap.fp article p,
+.container .wrap.fp article h2 {
+  mix-blend-mode: multiply;
+}
+.container .wrap.fp article .visual h2 {
+  color: #0088b6;
+  opacity: 1;
+}
+.container .wrap.fp article .content .cont-p {
+  font-size: 4.07407407vw;
+  line-height: 4.81481481vw;
+  margin-top: 0vw;
+  color: #0088b6;
+  font-family: "Samsung Sharp Sans Medium", sans-serif;
+}
 .container .wrap.m004001 {
   background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_bg.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 277.77777778vw;
 }
-.container .wrap.m004001 p,
-.container .wrap.m004001 h2 {
-  mix-blend-mode: multiply;
-}
-.container .wrap.m004001 article .visual h2 {
-  color: #0088b6;
-  opacity: 1;
-}
 .container .wrap.m004001 article .content .cont-p {
-  font-size: 4.07407407vw;
-  line-height: 4.81481481vw;
-  margin-top: 0vw;
-  color: #0088b6;
-  font-family: "Samsung Sharp Sans Medium", sans-serif;
   text-align: center;
 }
 .container .wrap.m004001 article .content img {
@@ -165,5 +170,33 @@ html {
 }
 .container .wrap.m004002002 article .content .txt {
   margin-top: 14.81481481vw;
+}
+.container .wrap.m004003 {
+  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004003_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250vw;
+}
+.container .wrap.m004003 article .visual h2 {
+  color: #0082b2;
+  letter-spacing: -0.02em;
+  opacity: 1;
+}
+.container .wrap.m004001005 article .content img {
+  height: 129.35185185vw;
+}
+.container .wrap.m004001006 article .content img {
+  height: 228.42592593vw;
+}
+.container .wrap.m004001007 article .content .cont-p {
+  letter-spacing: -0.001em;
+}
+.container .wrap.m004001007 article .content img {
+  height: 194.72222222vw;
+}
+.container .wrap.m004003001 article .content img {
+  width: 100vw;
+  height: 219.44444444vw;
+  margin-left: -6.48148148vw;
 }
 /*# sourceMappingURL=style.css.map */
