@@ -14,7 +14,7 @@
   font-family: "Samsung Sharp Sans Regular", sans-serif;
 }
 .b-color {
-  color: #0082b2;
+  color: #0088b6;
 }
 .g-color {
   color: #404040;
@@ -25,7 +25,6 @@ img {
 }
 p,
 h2 {
-  mix-blend-mode: multiply;
   word-break: keep-all;
 }
 html {
@@ -47,7 +46,7 @@ html {
 .container .wrap header .tit {
   font-size: 4.72222222vw;
   line-height: 5.92592593vw;
-  color: #0082b2;
+  color: #0088b6;
   padding-left: 2.87037037vw;
   box-sizing: border-box;
   position: relative;
@@ -82,7 +81,7 @@ html {
 .container .wrap article .content .cont-sub-tit {
   font-size: 4.44444444vw;
   line-height: 5.46296296vw;
-  color: #0082b2;
+  color: #0088b6;
   font-family: "Samsung Sharp Sans Bold", sans-serif;
 }
 .container .wrap article .content .cont-p {
@@ -110,15 +109,19 @@ html {
   background-repeat: no-repeat;
   height: 277.77777778vw;
 }
+.container .wrap.m004001 p,
+.container .wrap.m004001 h2 {
+  mix-blend-mode: multiply;
+}
 .container .wrap.m004001 article .visual h2 {
-  color: #0082b2;
+  color: #0088b6;
   opacity: 1;
 }
 .container .wrap.m004001 article .content .cont-p {
   font-size: 4.07407407vw;
   line-height: 4.81481481vw;
   margin-top: 0vw;
-  color: #0082b2;
+  color: #0088b6;
   font-family: "Samsung Sharp Sans Medium", sans-serif;
   text-align: center;
 }
@@ -144,5 +147,23 @@ html {
 }
 .container .wrap.m004003003 article .content img.mo {
   height: 81.75925926vw;
+}
+.container .wrap.m004002002 {
+  background-image: url('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004002002_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 359.25925926vw;
+}
+.container .wrap.m004002002 article .content .cont-sub-tit.cont-sub-tit1 {
+  margin-top: 129.25925926vw;
+}
+.container .wrap.m004002002 article .content .cont-p {
+  margin-top: 2.40740741vw;
+  margin-right: 0vw;
+  margin-bottom: 7.40740741vw;
+  margin-left: 0vw;
+}
+.container .wrap.m004002002 article .content .txt {
+  margin-top: 14.81481481vw;
 }
 /*# sourceMappingURL=style.css.map */

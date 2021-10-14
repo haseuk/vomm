@@ -9,7 +9,7 @@
 .b-color { color:#0082b2; }
 .g-color { color:#404040; }
 img { backface-visibility: hidden; display: block; }
-p, h2 { mix-blend-mode: multiply; .keep-all; }
+p, h2 { .keep-all; }
 
 html { .one; }
 
@@ -37,6 +37,7 @@ html { .one; }
       }
       // 004001
       &.m004001 { .contain('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004001t_bg.png'); .no-repeat; .h(1536);
+        p, h2 { mix-blend-mode: multiply; }
         article {
           .content {
             .cont-p { .fs(28); .lh(34); .w(990); .sharp-m; .mt(0); .ml(9); .tl; }
@@ -75,9 +76,6 @@ html { .one; }
       }
       // 004002001
       &.m004002001 { .contain('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004002001t_01.png'); .h(2166); .bg-x(0);
-        header {
-          .tit { mix-blend-mode: normal; }
-        }
         article { .pl(972); .-box;
           .content {
             .cont-sub-tit { .fs(48); .lh(53); }
@@ -93,6 +91,21 @@ html { .one; }
             .cont-p { .fs(48); .lh(58); .w(900);  }
             img.web { .wh(967,737); .abs; .rt(0,105); }
             .txt { .mt(100); }
+          }
+        }
+      }
+      // 004002002
+      &.m004002002 { .contain('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004002002t_bg.png'); .no-repeat; .h(2287);
+        article {
+          .content {
+            .cont-sub-tit { .fs(48); .lh(58);
+              &.cont-sub-tit1 { .mt(95); }
+            }
+            .cont-p { .fs(48); .lh(58); .m(26,0,90);
+              &.cont-p1 { .w(840); }
+              &.cont-p2 { .w(853); }
+            }
+            .txt { .mt(188); }
           }
         }
       }

@@ -6,10 +6,10 @@
 .sharp-b { font-family: "Samsung Sharp Sans Bold", sans-serif; }
 .sharp-m { font-family: "Samsung Sharp Sans Medium", sans-serif; }
 .sharp-r { font-family: "Samsung Sharp Sans Regular", sans-serif; }
-.b-color { color:#0082b2; }
+.b-color { color:#0088b6; }
 .g-color { color:#404040; }
 img { backface-visibility: hidden; display: block; }
-p, h2 { mix-blend-mode: multiply; .keep-all; }
+p, h2 { .keep-all; }
 
 html { .one; }
 .container {
@@ -36,6 +36,7 @@ html { .one; }
     }
     // 004001
     &.m004001 { .contain('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004001_bg.png'); .no-repeat; .h(3000);
+      p, h2 { mix-blend-mode: multiply; }
       article {
         .visual {
           h2 { .b-color; opacity: 1; }
@@ -86,6 +87,18 @@ html { .one; }
       article {
         .content {
           img.mo { .h(883); }
+        }
+      }
+    }
+    // 004002002
+    &.m004002002 { .contain('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004002002_bg.png'); .no-repeat; .h(3880);
+      article {
+        .content {
+          .cont-sub-tit {
+            &.cont-sub-tit1 { .mt(1396); }
+          }
+          .cont-p { .m(26,0,80); }
+          .txt { .mt(160); }
         }
       }
     }

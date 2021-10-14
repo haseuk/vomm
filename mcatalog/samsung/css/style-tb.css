@@ -25,7 +25,6 @@ img {
 }
 p,
 h2 {
-  mix-blend-mode: multiply;
   word-break: keep-all;
 }
 html {
@@ -107,6 +106,10 @@ html {
     background-repeat: no-repeat;
     height: 75vw;
   }
+  .container .wrap.m004001 p,
+  .container .wrap.m004001 h2 {
+    mix-blend-mode: multiply;
+  }
   .container .wrap.m004001 article .content .cont-p {
     font-size: 1.3671875vw;
     line-height: 1.66015625vw;
@@ -166,9 +169,6 @@ html {
     height: 105.76171875vw;
     background-position-x: 0vw;
   }
-  .container .wrap.m004002001 header .tit {
-    mix-blend-mode: normal;
-  }
   .container .wrap.m004002001 article {
     padding-left: 47.4609375vw;
     box-sizing: border-box;
@@ -205,6 +205,36 @@ html {
   }
   .container .wrap.m004003003 article .content .txt {
     margin-top: 4.8828125vw;
+  }
+  .container .wrap.m004002002 {
+    background-image: url('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/004002002t_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 111.66992188vw;
+  }
+  .container .wrap.m004002002 article .content .cont-sub-tit {
+    font-size: 2.34375vw;
+    line-height: 2.83203125vw;
+  }
+  .container .wrap.m004002002 article .content .cont-sub-tit.cont-sub-tit1 {
+    margin-top: 4.63867188vw;
+  }
+  .container .wrap.m004002002 article .content .cont-p {
+    font-size: 2.34375vw;
+    line-height: 2.83203125vw;
+    margin-top: 1.26953125vw;
+    margin-right: 0vw;
+    margin-bottom: 4.39453125vw;
+    margin-left: 0vw;
+  }
+  .container .wrap.m004002002 article .content .cont-p.cont-p1 {
+    width: 41.015625vw;
+  }
+  .container .wrap.m004002002 article .content .cont-p.cont-p2 {
+    width: 41.65039063vw;
+  }
+  .container .wrap.m004002002 article .content .txt {
+    margin-top: 9.1796875vw;
   }
 }
 /*# sourceMappingURL=style-tb.css.map */
