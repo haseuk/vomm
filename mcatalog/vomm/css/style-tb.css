@@ -193,15 +193,18 @@ html {
     font-size: 2.34375vw;
     line-height: 2.83203125vw;
     width: 43.9453125vw;
-    display: inline-block;
-    vertical-align: top;
   }
   .container .wrap.m004003003 article .content img.web {
     width: 47.21679688vw;
     height: 35.98632813vw;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 2.9296875vw;
+    position: absolute;
+    right: 0vw;
+    top: 5.12695313vw;
+    left: auto;
+    bottom: auto;
+  }
+  .container .wrap.m004003003 article .content .txt {
+    margin-top: 4.8828125vw;
   }
 }
 /*# sourceMappingURL=style-tb.css.map */
