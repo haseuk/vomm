@@ -103,20 +103,9 @@ html {
   .container .wrap.fp article {
     margin-top: 7.32421875vw;
   }
-  .container .wrap.fp article p,
-  .container .wrap.fp article h2 {
-    mix-blend-mode: multiply;
-  }
-  .container .wrap.fp article .visual h2 {
-    color: #0082b2;
-    opacity: 1;
-  }
   .container .wrap.fp article .content .cont-p {
     font-size: 1.3671875vw;
     line-height: 1.66015625vw;
-    margin-top: 0vw;
-    color: #0082b2;
-    font-family: "Samsung Sharp Sans Medium", sans-serif;
     text-align: left;
   }
   .container .wrap.half {
@@ -137,6 +126,38 @@ html {
   .container .wrap.main article .content .cont-p {
     font-size: 1.3671875vw;
     line-height: 1.66015625vw;
+  }
+  .container .wrap.q header .tit {
+    font-size: 3.41796875vw;
+    line-height: 1;
+    margin-top: 0.34179688vw;
+  }
+  .container .wrap.q article {
+    margin-top: 2.88085938vw;
+  }
+  .container .wrap.q article .visual h2 {
+    font-size: 4.296875vw;
+    line-height: 5.17578125vw;
+    text-align: left;
+  }
+  .container .wrap.q article .content {
+    margin-top: 6.00585938vw;
+  }
+  .container .wrap.q article .content .cont-sub-tit {
+    font-size: 2.9296875vw;
+    line-height: 3.515625vw;
+  }
+  .container .wrap.q article .content .cont-no {
+    font-size: 1.7578125vw;
+    line-height: 2.09960938vw;
+    margin-top: 2.09960938vw;
+  }
+  .container .wrap.q article .content .cont-p {
+    font-size: 1.7578125vw;
+    line-height: 2.09960938vw;
+  }
+  .container .wrap.q article .content .cont-p span {
+    line-height: 2.09960938vw;
   }
   .container .wrap.m004001 {
     background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001t_bg.png');
@@ -500,6 +521,167 @@ html {
   }
   .container .wrap.m004004 article .content .cont-p {
     width: 47.60742188vw;
+  }
+  .container .wrap.m004005 {
+    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004005t_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vw;
+  }
+  .container .wrap.m004005 article .content .cont-p {
+    width: 48.828125vw;
+  }
+  .container .wrap.m004004006 article .content .cont-sub-tit,
+  .container .wrap.m004004006 article .content .cont-p {
+    font-size: 2.34375vw;
+    line-height: 2.83203125vw;
+  }
+  .container .wrap.m004004006 article .content img {
+    width: 100vw;
+    height: 68.75vw;
+    position: absolute;
+    left: -4.296875vw;
+    bottom: -3.80859375vw;
+    right: auto;
+    top: auto;
+  }
+  .container .wrap.m004004006 article .content .txt {
+    margin-top: 66.06445313vw;
+    position: relative;
+    padding-left: 47.36328125vw;
+    width: 44.67773438vw;
+  }
+  .container .wrap.m004005004 article .content .cont-p {
+    width: 40.28320313vw;
+  }
+  .container .wrap.m004005004 article .content img {
+    width: 40.234375vw;
+    height: 20.8984375vw;
+    position: absolute;
+    right: 0vw;
+    top: 0.48828125vw;
+    left: auto;
+    bottom: auto;
+  }
+  .container .wrap.m004005004 article .content .txt {
+    margin-top: 20.5078125vw;
+  }
+  .container .wrap.m004005005 article .content .cont-p {
+    width: 45.8984375vw;
+    margin-bottom: 31.4453125vw;
+  }
+  .container .wrap.m004005005 article .content img {
+    width: 33.74023438vw;
+    height: 26.90429688vw;
+    position: absolute;
+    right: 0vw;
+    top: 0vw;
+    left: auto;
+    bottom: auto;
+  }
+  .container .wrap.m004005006 article .content img {
+    width: 61.42578125vw;
+    height: 25.83007813vw;
+  }
+  .container .wrap.m004005006 article .content .txt {
+    width: 26.66015625vw;
+    position: absolute;
+    right: 0vw;
+    bottom: 1.46484375vw;
+    left: auto;
+    top: auto;
+  }
+  .container .wrap.m004005007 article .content .cont-p {
+    width: 42.23632813vw;
+  }
+  .container .wrap.m004005007 article .content img.img1 {
+    width: 35.7421875vw;
+    height: 26.3671875vw;
+  }
+  .container .wrap.m004005007 article .content img.img2 {
+    width: 44.28710938vw;
+    height: 46.53320313vw;
+    position: absolute;
+    right: 0vw;
+    top: 5.859375vw;
+    left: auto;
+    bottom: auto;
+  }
+  .container .wrap.m005002001 article .content img {
+    width: 91.40625vw;
+    height: 34.765625vw;
+    margin-left: 0vw;
+  }
+  .container .wrap.m005002001 article .content .txt {
+    margin-top: 7.32421875vw;
+  }
+  .container .wrap.m005002002 article .content .cont-p {
+    margin-top: 5.02929688vw;
+    width: 41.015625vw;
+  }
+  .container .wrap.m005002002 article .content .cont-p span {
+    display: inline;
+  }
+  .container .wrap.m005002002 article .content img {
+    width: 45.60546875vw;
+    height: 12.93945313vw;
+    position: absolute;
+    right: 0vw;
+    top: 16.06445313vw;
+    left: auto;
+    bottom: auto;
+  }
+  .container .wrap.m005002002 article .content .txt {
+    margin-top: 8.203125vw;
+  }
+  .container .wrap.m005002004 article .content .cont-p {
+    margin-top: 5.02929688vw;
+  }
+  .container .wrap.m005002004 article .content .cont-p.cont-p1 {
+    margin-top: 0vw;
+    width: 41.74804688vw;
+  }
+  .container .wrap.m005002004 article .content img {
+    width: 45.60546875vw;
+    height: 19.18945313vw;
+    position: absolute;
+    right: 0vw;
+    top: 24.65820313vw;
+    left: auto;
+    bottom: auto;
+  }
+  .container .wrap.m005002005 article .content .cont-p {
+    margin-top: 5.02929688vw;
+  }
+  .container .wrap.m005002005 article .content .cont-p s {
+    width: 40.52734375vw;
+    display: inline-block;
+  }
+  .container .wrap.m005002005 article .content .cont-p.cont-p1 {
+    position: absolute;
+    left: 50%;
+    top: 24.0234375vw;
+    right: auto;
+    bottom: auto;
+  }
+  .container .wrap.m005002005 article .content img {
+    height: 21.19140625vw;
+  }
+  .container .wrap.m005002005 article .content .txt {
+    margin-top: 6.34765625vw;
+    margin-right: 0vw;
+    margin-bottom: 0vw;
+    margin-left: 0vw;
+  }
+  .container .wrap.m005002007 article .content {
+    margin-top: 0.48828125vw;
+  }
+  .container .wrap.m005002007 article .content .cont-p {
+    margin-top: 5.02929688vw;
+  }
+  .container .wrap.m005002007 article .content img {
+    width: 91.40625vw;
+    height: 86.96289063vw;
   }
 }
 /*# sourceMappingURL=style-tb.css.map */

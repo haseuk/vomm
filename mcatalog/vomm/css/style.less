@@ -37,6 +37,7 @@ html { .one; }
 
     // first page 공통사항
     &.fp {
+      header .tit { mix-blend-mode: multiply; }
       article {
         p, h2 { mix-blend-mode: multiply; }
         .visual {
@@ -55,6 +56,26 @@ html { .one; }
         }
         .content {
           .cont-p { .fs(36); .lh(43); }
+        }
+      }
+    }
+    // q 공통사항
+    &.q {
+      header {
+        .tit { .fs(70); .lh(94); .pl(0);
+          &:after { .hide; }
+        }
+      }
+      article { .mt(18);
+        .visual {
+          h2 { .fs(70); .lh(84); .tl; }
+        }
+        .content { .tl;
+          .cont-sub-tit { .tl; .sharp-m; }
+          .cont-no { .fs(36); .lh(43); .bold; .b-color; .mt(83); }
+          .cont-p { .fs(36); .lh(43); .mt(16);
+            span { .lh(43); .bold; opacity: 0.8; .block; .mb(10); }
+          }
         }
       }
     }
@@ -250,6 +271,107 @@ html { .one; }
     }
     // 004004
     &.m004004 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004004_bg.png'); .no-repeat; .h(3000); }
+    // 004005
+    &.m004005 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004005_bg.png'); .no-repeat; .h(3000);
+      article {
+        .visual {
+          h2 { .ls(-0.02em); }
+        }
+      }
+    }
+    // 004004006
+    &.m004004006 {
+      article {
+        .content {
+          img { .h(1182); }
+        }
+      }
+    }
+    // 004005004
+    &.m004005004 {
+      article {
+        .content {
+          img { .h(929); }
+        }
+      }
+    }
+    // 004005005
+    &.m004005005 {
+      article {
+        .content {
+          img { .h(895); }
+        }
+      }
+    }
+    // 004005006
+    &.m004005006 {
+      article {
+        .content {
+          img { .h(1503); }
+        }
+      }
+    }
+    // 004005007
+    &.m004005007 {
+      article {
+        .content {
+          img { .h(1574); }
+        }
+      }
+    }
+    // 005002001
+    &.m005002001 {
+      article {
+        .content {
+          img { .wh(961,555); .ml(-21); }
+          .txt { .mt(123); }
+        }
+      }
+    }
+    // 005002002
+    &.m005002002 {
+      article {
+        .content {
+          .cont-p { .mt(120);
+            span { .inline; }
+          }
+          img { .h(516); }
+        }
+      }
+    }
+    // 005002004
+    &.m005002004 {
+      article {
+        .content {
+          .cont-p { .mt(120);
+            span { .inline; opacity: 1; }
+          }
+          img { .h(574); }
+        }
+      }
+    }
+    // 005002005
+    &.m005002005 {
+      article {
+        .content {
+          .cont-p { .mt(120);
+            span { .inline; opacity: 1; }
+            &.cont-p1, &.cont-p2 { .mt(0);}
+          }
+          img { .h(442); }
+          .txt { .m(145,0,40); }
+        }
+      }
+    }
+    // 005002007
+    &.m005002007 {
+      article {
+        .content {
+          .cont-p { .mt(120); }
+          img { .h(1541); }
+        }
+      }
+    }
   }
 }
 

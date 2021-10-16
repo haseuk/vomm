@@ -103,6 +103,9 @@ html {
   text-align: left;
   letter-spacing: -0.028em;
 }
+.container .wrap.fp header .tit {
+  mix-blend-mode: multiply;
+}
 .container .wrap.fp article p,
 .container .wrap.fp article h2 {
   mix-blend-mode: multiply;
@@ -129,6 +132,48 @@ html {
 .container .wrap.main article .content .cont-p {
   font-size: 3.33333333vw;
   line-height: 3.98148148vw;
+}
+.container .wrap.q header .tit {
+  font-size: 6.48148148vw;
+  line-height: 8.7037037vw;
+  padding-left: 0vw;
+}
+.container .wrap.q header .tit:after {
+  display: none;
+}
+.container .wrap.q article {
+  margin-top: 1.66666667vw;
+}
+.container .wrap.q article .visual h2 {
+  font-size: 6.48148148vw;
+  line-height: 7.77777778vw;
+  text-align: left;
+}
+.container .wrap.q article .content {
+  text-align: left;
+}
+.container .wrap.q article .content .cont-sub-tit {
+  text-align: left;
+  font-family: "Samsung Sharp Sans Medium", sans-serif;
+}
+.container .wrap.q article .content .cont-no {
+  font-size: 3.33333333vw;
+  line-height: 3.98148148vw;
+  font-weight: 700;
+  color: #0082b2;
+  margin-top: 7.68518519vw;
+}
+.container .wrap.q article .content .cont-p {
+  font-size: 3.33333333vw;
+  line-height: 3.98148148vw;
+  margin-top: 1.48148148vw;
+}
+.container .wrap.q article .content .cont-p span {
+  line-height: 3.98148148vw;
+  font-weight: 700;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 0.92592593vw;
 }
 .container .wrap.m004001 {
   background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_bg.png');
@@ -308,5 +353,82 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   height: 277.77777778vw;
+}
+.container .wrap.m004005 {
+  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004005_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 277.77777778vw;
+}
+.container .wrap.m004005 article .visual h2 {
+  letter-spacing: -0.02em;
+}
+.container .wrap.m004004006 article .content img {
+  height: 109.44444444vw;
+}
+.container .wrap.m004005004 article .content img {
+  height: 86.01851852vw;
+}
+.container .wrap.m004005005 article .content img {
+  height: 82.87037037vw;
+}
+.container .wrap.m004005006 article .content img {
+  height: 139.16666667vw;
+}
+.container .wrap.m004005007 article .content img {
+  height: 145.74074074vw;
+}
+.container .wrap.m005002001 article .content img {
+  width: 88.98148148vw;
+  height: 51.38888889vw;
+  margin-left: -1.94444444vw;
+}
+.container .wrap.m005002001 article .content .txt {
+  margin-top: 11.38888889vw;
+}
+.container .wrap.m005002002 article .content .cont-p {
+  margin-top: 11.11111111vw;
+}
+.container .wrap.m005002002 article .content .cont-p span {
+  display: inline;
+}
+.container .wrap.m005002002 article .content img {
+  height: 47.77777778vw;
+}
+.container .wrap.m005002004 article .content .cont-p {
+  margin-top: 11.11111111vw;
+}
+.container .wrap.m005002004 article .content .cont-p span {
+  display: inline;
+  opacity: 1;
+}
+.container .wrap.m005002004 article .content img {
+  height: 53.14814815vw;
+}
+.container .wrap.m005002005 article .content .cont-p {
+  margin-top: 11.11111111vw;
+}
+.container .wrap.m005002005 article .content .cont-p span {
+  display: inline;
+  opacity: 1;
+}
+.container .wrap.m005002005 article .content .cont-p.cont-p1,
+.container .wrap.m005002005 article .content .cont-p.cont-p2 {
+  margin-top: 0vw;
+}
+.container .wrap.m005002005 article .content img {
+  height: 40.92592593vw;
+}
+.container .wrap.m005002005 article .content .txt {
+  margin-top: 13.42592593vw;
+  margin-right: 0vw;
+  margin-bottom: 3.7037037vw;
+  margin-left: 0vw;
+}
+.container .wrap.m005002007 article .content .cont-p {
+  margin-top: 11.11111111vw;
+}
+.container .wrap.m005002007 article .content img {
+  height: 142.68518519vw;
 }
 /*# sourceMappingURL=style.css.map */
