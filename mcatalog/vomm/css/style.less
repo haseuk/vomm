@@ -6,8 +6,7 @@
 .sharp-b { font-family: "Samsung Sharp Sans Bold", sans-serif; }
 .sharp-m { font-family: "Samsung Sharp Sans Medium", sans-serif; }
 .sharp-r { font-family: "Samsung Sharp Sans Regular", sans-serif; }
-.b-color { color:#0088b6; }
-.b2-color { color:#0082b2; }
+.b-color { color:#0082b2; }
 .g-color { color:#404040; }
 img { backface-visibility: hidden; display: block; }
 p, h2 { .keep-all; }
@@ -44,16 +43,26 @@ html { .one; }
           h2 { .b-color; opacity: 1; }
         }
         .content {
-          .cont-p { .fs(44); .lh(52); .mt(0); .b-color; .sharp-m; }
+          .cont-p { .fs(44); .lh(54); .mt(0); .b-color; .sharp-m; .tc; }
+        }
+      }
+    }
+    // main page 공통사항
+    &.main {
+      article { .mt(190);
+        .visual {
+          h2 { color:#cdf5ff; opacity: 1; }
+        }
+        .content {
+          .cont-p { .fs(36); .lh(43); }
         }
       }
     }
     // 004001
-    &.m004001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_bg.png'); .no-repeat; .h(3000);
+    &.m004001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_bg.png'); .no-repeat; .h(3099);
       article {
         .content {
-          .cont-p { .tc; }
-          img { .h(920); }
+          img { .h(922); }
         }
       }
     }
@@ -101,7 +110,7 @@ html { .one; }
       }
     }
     // 004002002
-    &.m004002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004002002_bg.png'); .no-repeat; .h(3880);
+    &.m004002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004002002_bg.png'); .no-repeat; .h(3880); .bg-y(20);
       article {
         .content {
           .cont-sub-tit {
@@ -113,10 +122,10 @@ html { .one; }
       }
     }
     // 004003
-    &.m004003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004003_bg.png'); .no-repeat; .h(2700);
+    &.m004003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004003_bg.png'); .no-repeat; .h(2800);
       article {
         .visual {
-          h2 { .b2-color; .ls(-0.02em); opacity: 1; }
+          h2 { opacity: 1; }
         }
       }
     }
@@ -129,7 +138,7 @@ html { .one; }
       }
     }
     // 004001006
-    &.m004001006 {
+    &.m004001006 { .pb(0);
       article {
         .content {
           img { .h(2467); }
@@ -137,7 +146,7 @@ html { .one; }
       }
     }
     // 004001007
-    &.m004001007 {
+    &.m004001007 { .pb(0);
       article {
         .content {
           .cont-p { .ls(-0.001em); }
@@ -153,5 +162,126 @@ html { .one; }
         }
       }
     }
+    // 004003002
+    &.m004003002 { .pb(0);
+      article {
+        .content {
+          img { .wh(1080,1794); .ml(-70); }
+        }
+      }
+    }
+    // 004003009
+    &.m004003009 {
+      article {
+        .content {
+          img { .h(829); }
+        }
+      }
+    }
+    // 004004001
+    &.m004004001 {
+      article {
+        .content {
+          .cont-p1 {.mt(0); }
+          img {
+            &.img1 { .h(791); }
+            &.img2 { .wh(1080,925); .ml(-70); }
+          }
+        }
+      }
+    }
+    // 004004002
+    &.m004004002 { .pb(0);
+      article {
+        .content {
+          img {
+            &.img1 { .h(656); }
+            &.img2 { .wh(1080,1467); .ml(-70); }
+          }
+        }
+      }
+    }
+    // 004004003
+    &.m004004003 {
+      article {
+        .content {
+          img { .h(1772); }
+        }
+      }
+    }
+    // 004004004
+    &.m004004004 {
+      article {
+        .content {
+          img { .h(1337); }
+        }
+      }
+    }
+    // 004004005
+    &.m004004005 {
+      article {
+        .content {
+          .cont-sub-tit1 { .mt(100); }
+          img { .h(1383); }
+        }
+      }
+    }
+    // 002
+    &.m002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/002_bg.png'); .no-repeat; .h(1920);
+      article {
+        .content {
+          .cont-p { color:#fff; .pl(286); .m(0,0,29); .rel;
+            &:after { .cnt; .abs; .w(275); .lt; .tr; color:#8c8c8c; }
+            &:nth-child(1):after { content:'Hub ㅣ '; }
+            &:nth-child(2):after { content:'Tool ㅣ '; }
+            &:nth-child(3):after { content:'Engineering ㅣ '; }
+            &:nth-child(4):after { content:'Training ㅣ '; }
+          }
+        }
+      }
+    }
+    // 004002
+    &.m004002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004002_bg.png'); .no-repeat; .h(3000);
+      article {
+        .visual {
+          h2 { .ls(-0.02em); }
+        }
+      }
+    }
+    // 004004
+    &.m004004 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004004_bg.png'); .no-repeat; .h(3000); }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
