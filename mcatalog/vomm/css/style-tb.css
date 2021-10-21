@@ -2802,5 +2802,172 @@ html {
     right: auto;
     bottom: auto;
   }
+  .container .wrap.m005001 {
+    background: none;
+    height: 379.34570313vw;
+  }
+  .container .wrap.m005001 article {
+    margin-top: 5.71289063vw;
+  }
+  .container .wrap.m005001 article .visual h2 {
+    font-size: 4.296875vw;
+    line-height: 5.12695313vw;
+    font-weight: 700;
+    color: #404040;
+    font-family: "Samsung Sharp Sans Bold", sans-serif;
+    text-align: left;
+  }
+  .container .wrap.m005001 article .visual h2 s {
+    font-family: "Samsung Sharp Sans Medium", sans-serif;
+    display: inline-block;
+  }
+  .container .wrap.m005001 article .content img {
+    width: 100vw;
+    margin-left: -4.296875vw;
+  }
+  .container .wrap.m005001 article .content .cont-wrap {
+    display: none;
+  }
+  .container .wrap.m005002 {
+    padding-bottom: 7.32421875vw;
+  }
+  .container .wrap.m005002 article {
+    margin-top: 7.8125vw;
+  }
+  .container .wrap.m005002 article .visual h2 {
+    font-size: 3.515625vw;
+    line-height: 4.19921875vw;
+    color: #58595b;
+    font-family: "Samsung Sharp Sans Regular", sans-serif;
+    text-align: left;
+  }
+  .container .wrap.m005002 article .content {
+    margin-top: 5.859375vw;
+  }
+  .container .wrap.m005002 article .content .txt-box {
+    text-align: left;
+    zoom: 1;
+    margin-top: 1.46484375vw;
+    position: relative;
+  }
+  .container .wrap.m005002 article .content .txt-box:after {
+    content: '';
+    display: block;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  .container .wrap.m005002 article .content .txt-box .tit {
+    font-size: 1.7578125vw;
+    font-family: "Samsung Sharp Sans Medium", sans-serif;
+    color: #58595b;
+    margin-bottom: 1.46484375vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2.19726563vw;
+  }
+  .container .wrap.m005002 article .content .txt-box .txt {
+    font-size: 1.3671875vw;
+    line-height: 1.66015625vw;
+    color: #58595b;
+    display: inline-block;
+    vertical-align: top;
+    width: 60.05859375vw;
+  }
+  .container .wrap.m005002 article .content .txt-box .txt s {
+    float: right;
+    position: absolute;
+    right: 0vw;
+    top: 0vw;
+    left: auto;
+    bottom: auto;
+  }
+  .container .wrap.m000 {
+    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/000t_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vw;
+  }
+  .container .wrap.m001 {
+    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/001t_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vw;
+  }
+  .container .wrap.m001 article {
+    padding-left: 1.07421875vw;
+    box-sizing: border-box;
+  }
+  .container .wrap.m001 article .tit {
+    font-size: 4.296875vw;
+    line-height: 5.32226563vw;
+    color: #fff;
+    font-family: "Samsung Sharp Sans Bold", sans-serif;
+    text-align: left;
+    margin-top: 25.87890625vw;
+  }
+  .container .wrap.m001 article .txt {
+    font-size: 1.5625vw;
+    line-height: 3.515625vw;
+    color: #fff;
+    text-align: left;
+    margin-top: 3.125vw;
+    position: relative;
+    margin-left: 1.46484375vw;
+  }
+  .container .wrap.m001 article .txt:after {
+    content: '';
+    display: block;
+    width: 0.24414063vw;
+    height: 13.13476563vw;
+    background-color: #fff;
+    position: absolute;
+    left: -1.46484375vw;
+    top: 0.48828125vw;
+    right: auto;
+    bottom: auto;
+    transform: none;
+  }
+  .container .wrap.m005 {
+    background-image: url('../img/005t_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vw;
+  }
+  .container .wrap.m005 article {
+    padding-left: 1.07421875vw;
+    box-sizing: border-box;
+  }
+  .container .wrap.m005 article .tit {
+    font-size: 4.296875vw;
+    line-height: 5.32226563vw;
+    color: #fff;
+    font-family: "Samsung Sharp Sans Bold", sans-serif;
+    text-align: left;
+    margin-top: 26.85546875vw;
+  }
+  .container .wrap.m005 article .txt {
+    font-size: 1.5625vw;
+    line-height: 3.515625vw;
+    color: #fff;
+    text-align: left;
+    margin-top: 3.125vw;
+    position: relative;
+    margin-left: 1.46484375vw;
+  }
+  .container .wrap.m005 article .txt:after {
+    content: '';
+    display: block;
+    width: 0.24414063vw;
+    height: 6.34765625vw;
+    background-color: #fff;
+    position: absolute;
+    left: -1.46484375vw;
+    top: 0.48828125vw;
+    right: auto;
+    bottom: auto;
+    transform: none;
+  }
 }
 /*# sourceMappingURL=style-tb.css.map */

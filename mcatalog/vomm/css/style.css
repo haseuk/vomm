@@ -2130,4 +2130,224 @@ html {
 .container .wrap.m004 article .content .v-wrap5 {
   top: 590.27777778vw;
 }
+.container .wrap.m005001 {
+  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/005001_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1370.55555556vw;
+}
+.container .wrap.m005001 article {
+  margin-top: 10.18518519vw;
+}
+.container .wrap.m005001 article .visual h2 {
+  font-size: 6.48148148vw;
+  line-height: 7.77777778vw;
+  font-weight: 700;
+  color: #404040;
+  font-family: "Samsung Sharp Sans Bold", sans-serif;
+  text-align: left;
+}
+.container .wrap.m005001 article .visual h2 s {
+  font-family: "Samsung Sharp Sans Medium", sans-serif;
+  display: inline-block;
+}
+.container .wrap.m005001 article .content {
+  position: static;
+}
+.container .wrap.m005001 article .content .cont-wrap {
+  text-align: left;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  padding-top: 0vw;
+  padding-right: 6.48148148vw;
+  padding-bottom: 0vw;
+  padding-left: 6.48148148vw;
+  box-sizing: border-box;
+  width: 100%;
+}
+.container .wrap.m005001 article .content .cont-wrap .tit {
+  font-size: 4.44444444vw;
+  line-height: 5.37037037vw;
+  color: #0082b2;
+  font-weight: 700;
+  font-family: "Samsung Sharp Sans Bold", sans-serif;
+}
+.container .wrap.m005001 article .content .cont-wrap .tit s {
+  font-size: 2.77777778vw;
+  line-height: 5.37037037vw;
+  float: right;
+  font-family: SamsungOne, sans-serif;
+  color: #404040;
+  font-weight: 400;
+}
+.container .wrap.m005001 article .content .cont-wrap .txt-box {
+  padding-left: 12.59259259vw;
+  box-sizing: border-box;
+  margin-top: 6.48148148vw;
+}
+.container .wrap.m005001 article .content .cont-wrap .txt-box p {
+  font-size: 3.33333333vw;
+  line-height: 4.07407407vw;
+  font-family: SamsungOne, sans-serif;
+}
+.container .wrap.m005001 article .content .cont-wrap .txt-box p.tit {
+  font-weight: 700;
+  color: #404040;
+}
+.container .wrap.m005001 article .content .cont-wrap .txt-box p.tit s {
+  font-size: 2.77777778vw;
+  line-height: 5.37037037vw;
+  float: right;
+  color: #404040;
+  font-weight: 400;
+}
+.container .wrap.m005001 article .content .cont-wrap .txt-box p.txt {
+  line-height: 4.44444444vw;
+  width: 59.25925926vw;
+  margin-bottom: 10.37037037vw;
+}
+.container .wrap.m005001 article .content .cont-wrap.cont-wrap1 {
+  top: 43.14814815vw;
+}
+.container .wrap.m005001 article .content .cont-wrap.cont-wrap2 {
+  top: 286.94444444vw;
+}
+.container .wrap.m005001 article .content .cont-wrap.cont-wrap3 {
+  top: 530.55555556vw;
+}
+.container .wrap.m005001 article .content .cont-wrap.cont-wrap4 {
+  top: 885.09259259vw;
+}
+.container .wrap.m005001 article .content .cont-wrap.cont-wrap5 {
+  top: 1101.2962963vw;
+}
+.container .wrap.m005002 {
+  padding-bottom: 18.51851852vw;
+}
+.container .wrap.m005002 article {
+  margin-top: 22.22222222vw;
+}
+.container .wrap.m005002 article .visual h2 {
+  font-size: 4.44444444vw;
+  line-height: 5.37037037vw;
+  font-weight: 700;
+  color: #58595b;
+  font-family: "Samsung Sharp Sans Bold", sans-serif;
+  text-align: center;
+}
+.container .wrap.m005002 article .content {
+  margin-top: 24.07407407vw;
+}
+.container .wrap.m005002 article .content .txt-box {
+  text-align: left;
+  zoom: 1;
+  margin-top: 8.33333333vw;
+  position: relative;
+}
+.container .wrap.m005002 article .content .txt-box:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.container .wrap.m005002 article .content .txt-box .tit {
+  font-size: 3.7037037vw;
+  font-family: "Samsung Sharp Sans Medium", sans-serif;
+  color: #58595b;
+  margin-bottom: 1.38888889vw;
+}
+.container .wrap.m005002 article .content .txt-box .txt {
+  font-size: 3.33333333vw;
+  line-height: 3.7037037vw;
+  color: #58595b;
+  width: 75.37037037vw;
+}
+.container .wrap.m005002 article .content .txt-box .txt s {
+  position: absolute;
+  right: 0vw;
+  top: 6.2037037vw;
+  left: auto;
+  bottom: auto;
+}
+.container .wrap.m000 {
+  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/000_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 177.77777778vw;
+}
+.container .wrap.m001 {
+  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/001_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 177.77777778vw;
+}
+.container .wrap.m001 article .tit {
+  font-size: 8.14814815vw;
+  line-height: 10.09259259vw;
+  color: #fff;
+  font-family: "Samsung Sharp Sans Bold", sans-serif;
+  text-align: center;
+  margin-top: 64.07407407vw;
+}
+.container .wrap.m001 article .txt {
+  font-size: 2.96296296vw;
+  line-height: 6.66666667vw;
+  color: #fff;
+  text-align: center;
+  margin-top: 12.68518519vw;
+  position: relative;
+}
+.container .wrap.m001 article .txt:after {
+  content: '';
+  display: block;
+  width: 9.90740741vw;
+  height: 0.37037037vw;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: -3.7037037vw;
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+}
+.container .wrap.m005 {
+  background-image: url('../img/005_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 177.77777778vw;
+}
+.container .wrap.m005 article .tit {
+  font-size: 8.14814815vw;
+  line-height: 10.09259259vw;
+  color: #fff;
+  font-family: "Samsung Sharp Sans Bold", sans-serif;
+  text-align: center;
+  margin-top: 64.81481481vw;
+}
+.container .wrap.m005 article .txt {
+  font-size: 2.96296296vw;
+  line-height: 6.66666667vw;
+  color: #fff;
+  text-align: center;
+  margin-top: 12.68518519vw;
+  position: relative;
+}
+.container .wrap.m005 article .txt:after {
+  content: '';
+  display: block;
+  width: 9.90740741vw;
+  height: 0.37037037vw;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: -3.7037037vw;
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+}
 /*# sourceMappingURL=style.css.map */

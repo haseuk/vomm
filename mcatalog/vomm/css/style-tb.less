@@ -970,6 +970,53 @@ html { .one; }
           }
         }
       }
+      // 005001
+      &.m005001 { background:none; .h(7769);
+        article { .mt(117);
+          .visual h2 { .fs(88); .lh(105); .bold; .g-color; .sharp-b; .tl;
+            s { .sharp-m; .ib; }
+          }
+          .content {
+            img { .w(2048); .ml(-88); }
+            .cont-wrap { .hide; }
+          }
+        }
+      }
+      // 005002
+      &.m005002 { .pb(150);
+        article { .mt(160);
+          .visual h2 { .fs(72); .lh(86); color:#58595b; .sharp-r; .tl; }
+          .content { .mt(120);
+            .txt-box { .tl; .clear; .mt(30); .rel;
+              .tit { .fs(36); .sharp-m; color:#58595b; .mb(30); .ib; .vat; .mr(45);}
+              .txt { .fs(28); .lh(34); color:#58595b; .ib; .vat; .w(1230);
+                s { .fr; .abs; .rt; }
+              }
+            }
+          }
+        }
+      }
+      // 000
+      &.m000 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/000t_bg.png'); .no-repeat; .h(1536);}
+
+      // 001
+      &.m001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/001t_bg.png'); .no-repeat; .h(1536);
+        article { .pl(22); .-box;
+          .tit { .fs(88); .lh(109); color:#fff; .sharp-b; .tl; .mt(530); }
+          .txt { .fs(32); .lh(72); color:#fff; .tl; .mt(64); .rel; .ml(30);
+            &:after { .cnt; .wh(5,269); .bgc(#fff); .abs; .lt(-30,10); transform: none;  }
+          }
+        }
+      }
+      // 005
+      &.m005 { .contain('../img/005t_bg.png'); .no-repeat; .h(1536);
+        article { .pl(22); .-box;
+          .tit { .fs(88); .lh(109); color:#fff; .sharp-b; .tl; .mt(550); }
+          .txt { .fs(32); .lh(72); color:#fff; .tl; .mt(64); .rel; .ml(30);
+            &:after { .cnt; .wh(5,130); .bgc(#fff); .abs; .lt(-30,10); transform: none;  }
+          }
+        }
+      }
     }
   }
 }
