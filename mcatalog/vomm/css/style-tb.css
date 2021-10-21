@@ -2722,7 +2722,7 @@ html {
     background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004t_bg.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 224.90234375vw;
+    height: 201.07421875vw;
   }
   .container .wrap.m004 article {
     margin-top: 7.8125vw;
@@ -2730,6 +2730,7 @@ html {
   .container .wrap.m004 article .visual h2 {
     font-size: 4.296875vw;
     line-height: 5.12695313vw;
+    font-family: "Samsung Sharp Sans Medium", sans-serif;
     mix-blend-mode: normal;
     text-align: center;
   }
@@ -2739,8 +2740,7 @@ html {
   .container .wrap.m004 article .content .cont-p {
     font-size: 1.953125vw;
     line-height: 2.34375vw;
-    margin-top: 4.39453125vw;
-    width: 42.67578125vw;
+    margin-top: 29.24804688vw;
   }
   .container .wrap.m004 article .content .v-wrap {
     font-size: 0vw;
@@ -2803,7 +2803,9 @@ html {
     bottom: auto;
   }
   .container .wrap.m005001 {
-    background: none;
+    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/005001t_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 379.34570313vw;
   }
   .container .wrap.m005001 article {
@@ -2930,7 +2932,7 @@ html {
     transform: none;
   }
   .container .wrap.m005 {
-    background-image: url('../img/005t_bg.png');
+    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/005t_bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 75vw;
