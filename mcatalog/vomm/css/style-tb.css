@@ -1953,6 +1953,7 @@ html {
     right: auto;
     bottom: auto;
     opacity: 0.8;
+    transform: none;
   }
   .container .wrap.m002002 article .content .cont-tit s {
     font-family: "Samsung Sharp Sans Bold", sans-serif;
@@ -2803,7 +2804,7 @@ html {
     bottom: auto;
   }
   .container .wrap.m005001 {
-    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/005001t_bg.png');
+    background-image: url('../img/005001t_bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 379.34570313vw;

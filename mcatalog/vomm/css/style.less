@@ -167,7 +167,7 @@ html { .one; }
       }
     }
     // 004001007
-    &.m004001007 { .pb(0);
+    &.m004001007 {
       article {
         .content {
           .cont-p { .ls(-0.001em); }
@@ -536,8 +536,8 @@ html { .one; }
           .cont-p { .mt(40); }
           .cont-sub-tit1 { .tl; .mt(80); }
           .img1 { .wh(1080,2608); .ml(-70); }
-          .img2 { .wh(1080,1513); .ml(-70); }
-          .img3 { .wh(1080,540); .ml(-70); }
+          .img2 { .h(1513); }
+          .img3 { .h(540); }
         }
       }
     }
@@ -561,10 +561,10 @@ html { .one; }
         .content { .rel;
           .cont-p { .mt(120); }
           .img1 { .wh(1080,691); .ml(-70); }
-          .cont-p1 { .wh(1080,1304); .ml(-70); .mt(0); .p(0,70); .-box; .contain('../img/005002006_02.png');
+          .cont-p1 { .wh(1080,1304); .ml(-70); .mt(0); .p(0,70); .-box; .contain('http://www.vo-mm.com/Samsung/M-Catalogueimg/005002006_02.png');
             span { .fs(36); .bold; color:#fff; .wh(315,168); .lh(168); .block; .tc; .mb(50); }
           }
-          .cont-p2 { .fs(36); .lh(44); .w(446); .abs; .rb(0,420); }
+          .cont-p2 { .fs(36); .lh(44); .w(446); .abs; .rb(0,420); .g-color; }
         }
       }
     }
@@ -606,7 +606,7 @@ html { .one; }
           .cont-sub-tit3 { .mt(0); .t(6620); }
           .cont-sub-tit4 { .mt(0); .t(7800); }
           .cont-sub-tit5 { .mt(0); .t(8970); }
-          .cont-p1 { .fs(36); .lh(44); .tl; .mt(0); .abs; .lt(0,5603); .p(0,70); .-box; }
+          .cont-p1 { .fs(36); .lh(44); .tl; .mt(0); .abs; .lt(0,5603); .p(0,70); .-box; .ls(-0.03em); }
           .cont-p2 { .t(6775);}
           .cont-p3 { .t(7958); }
           .cont-p4 { .t(9120);}
@@ -704,12 +704,12 @@ html { .one; }
     }
     // 002002
     &.m002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/002002_bg.png'); .no-repeat; .h(9227);
-      article { .mt(350);
+      article { .mt(360);
         .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal;}
         .content {
           .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(155); }
           .cont-pi { .fs(40); .lh(48); color:#fff; .mt(85); mix-blend-mode: normal; .w(800); .mh-c;  }
-          .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(286,2006); opacity: 0.8;
+          .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(50%,2006); opacity: 0.8; transform: translateX(-50%);
             s { .sharp-b; }
           }
           .tit { .fs(36); .sharp-b; .b-color; .abs; .lt(296,0); }
@@ -792,7 +792,7 @@ html { .one; }
         .content {
           .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(155); }
           .cont-pi { .fs(40); .lh(48); color:#fff; .mt(85); mix-blend-mode: normal; .w(800); .mh-c;  }
-          .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(70,2006); opacity: 0.8;
+          .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(50%,2006); opacity: 0.8; transform: translateX(-50%);
             s { .sharp-b; }
           }
           .tit { .fs(36); .sharp-b; .b-color; .abs; .lt(296,0); }
@@ -914,10 +914,10 @@ html { .one; }
       }
     }
     // 005002
-    &.m005002 { .pb(200);
-      article { .mt(240);
-        .visual h2 { .fs(48); .lh(58); .bold; color:#58595b; .sharp-b; .tc; }
-        .content { .mt(260);
+    &.m005002 { .pb(100);
+      article { .mt(150);
+        .visual h2 { .fs(72); .lh(89); color:#58595b; .sharp-r; .tl; }
+        .content { .mt(120);
           .txt-box { .tl; .clear; .mt(90); .rel;
             .tit { .fs(40); .sharp-m; color:#58595b; .mb(15); }
             .txt { .fs(36); .lh(40); color:#58595b; .w(814);
