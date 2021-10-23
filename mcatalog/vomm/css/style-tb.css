@@ -2399,6 +2399,7 @@ html {
     right: auto;
     bottom: auto;
     opacity: 0.8;
+    transform: none;
   }
   .container .wrap.m002003 article .content .cont-tit s {
     font-family: "Samsung Sharp Sans Bold", sans-serif;

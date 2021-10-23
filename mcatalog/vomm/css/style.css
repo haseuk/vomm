@@ -673,7 +673,7 @@ html {
   padding-left: 6.48148148vw;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogueimg/005002006_02.png');
+  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/005002006_02.png');
   background-size: contain;
 }
 .container .wrap.m005002006 article .content .cont-p1 span {
@@ -1721,6 +1721,7 @@ html {
 .container .wrap.m002003 article .content .cont-tit {
   font-size: 4.44444444vw;
   line-height: 5.37037037vw;
+  width: 46.2962963vw;
   color: #404040;
   font-family: "Samsung Sharp Sans Medium", sans-serif;
   position: absolute;
