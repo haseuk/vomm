@@ -651,20 +651,25 @@ html { .one; }
         }
       }
       // 001001
-      &.m001001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_bg.png'); .no-repeat; .h(4156);
+      &.m001001 { background: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_bg.png') no-repeat center top; .contain; .h(4156); .pb(0);
         article { .mt(165);
           .visual h2 { .tc; mix-blend-mode: normal; }
           .content {
             .cell-box { .mt(328); .tc;
-              .cell { .contain; .no-repeat; .wh(437,430); .ib; .m(0,53); .p(50,0,0,30); .vat;
-                &.cell1 { .bg('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_01.png'); .mt(118);
-                  .p3 {.mt(53); }
+              .cell { .contain; .no-repeat; .wh(437,430); .ib; .m(0,53); min-height:auto; .p(50,0,0,30); .-box; .vat; .rel;
+                &:after { .cnt; .wh(145,145); .abs; .lt(26,58); .contain; }
+                &.cell1 { .mt(118);
+                  &:after { .bg('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_01.png'); }
                 }
-                &.cell2 { .bg('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_02.png'); }
-                &.cell3 { .bg('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_03.png'); .mt(105); }
+                &.cell2 {
+                  &:after { .bg('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_02.png'); }
+                }
+                &.cell3 { .mt(105);
+                  &:after { .bg('http://www.vo-mm.com/Samsung/M-Catalogue/img/001001t_03.png'); }
+                }
                 p { .tl;
                   &.p1 { .fs(63); .pl(170); .b-color;   s { .fs(43); } }
-                  &.p2 { .fs(25); .pl(170); .b-color; }
+                  &.p2 { .fs(25); .h(90); .pl(170); .b-color; }
                   &.p3 { .fs(22); .g-color; .mt(22); }
                 }
               }
@@ -672,22 +677,27 @@ html { .one; }
             .cont-p { .fs(40); .lh(46); .regular; .one; .g-color; .tl; .mt(285); }
             .cont-p1 { .mt(45);}
             .cont-p2 { .w(955);}
-            .v-wrap { .abs; .lt(0,2285); .p(0); .-box;
+            .v-wrap { .mt(105); .p(0); .-box; .ml(-88); .p(80,88); .-box;
               .cont-sub-tit { .fs(48); .mt(0); }
-              .cont-sub-tit1 { .fs(44); .mt(80); .ib; }
-              .cont-sub-tit2 { .mt(0); .ib; .ml(430); }
-              .txt { .fs(36); .lh(46); .mt(410); .ls(0); }
+              .cont-sub-tit1.mo { .hide; }
+              .cont-sub-tit1.web { .fs(44); .mt(80); .ib; .wf;
+                s { .w(50%); .ib; .fr; }
+              }
+              .img5 { .wh(1866,323); }
+              .txt { .fs(36); .lh(46); .m(40,0,200); .ls(0); }
             }
+            .img4 { .mt(0); .abs; .rt(-88,834); .wh(940,1264); }
           }
         }
       }
       // 001002
       &.m001002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/001002t_bg.png'); .no-repeat; .h(5345);
+        &:after { .hide; }
         article { .mt(150);
           .visual h2 { .tc; mix-blend-mode: normal; opacity: 0.8; }
           .content {
             .cont-p { .fs(40); .lh(48); .regular; .one; .g-color; .tl; .mt(1190); .w(959); }
-            .cont-sub-tit { .fs(44); .sharp-b; .mt(0); mix-blend-mode: normal; .abs; .lt(1083,0); }
+            .cont-sub-tit { .fs(44); .sharp-b; .mt(0); mix-blend-mode: normal; .abs; .lt(1083,0); .pt(0); }
             .cont-sub-tit1 { .fs(50); .lh(60); .sharp-b; .pl(140); .-box; .tl; mix-blend-mode: normal; .abs; .lt; }
             .cont-sub-tit2 { .mt(0); .t(1345); }
             .cont-sub-tit3 { .mt(0); .lt(983,1345); }
@@ -702,21 +712,22 @@ html { .one; }
       }
       // 001003
       &.m001003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/001003t_bg.png'); .no-repeat; .h(4356);
+        &:after { .hide; }
         article { .mt(150);
           .visual h2 { .tc; color:#a5d1e6; mix-blend-mode: normal;}
           .content {
             .cont-p { .fs(40); .lh(48); .regular; .one; .tl; color:#fff; .mt(85); mix-blend-mode: normal;}
             .cont-sub-tit { .sharp-b; mix-blend-mode: normal; .tl; .abs; .lt; }
             .cont-sub-tit1 { .fs(36); color: #fff; .pl(0); }
-            .t1 { .lt(0,650); }
+            .t1 { .lt(0,650); .mt(0); }
             .t2 { .lt(670,650); }
             .t3 { .lt(1340,650); }
             .cont-p1 { .fs(25); .lh(30); .abs; .p(0); .-box; .mt(0); .w(530); }
             .p1 { .lt(0,720); }
             .p2 { .lt(670,720); }
             .p3 { .lt(1340,720); }
-            .cont-sub-tit2 { .fs(48); .b-color; .sharp-b; .tc; .abs; .lt; .w(938); }
-            .t4 { .t(1190); }
+            .cont-sub-tit2 { .fs(48); .b-color; .sharp-b; .tc; .abs; .lt; .w(938); .m(0);}
+            .t4 { .t(1190);  }
             .t5 { .lt(938,1190); }
             .t6 { .t(2527); }
             .t7 { .lt(938,2527); }
@@ -755,9 +766,10 @@ html { .one; }
       }
       // 002001
       &.m002001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/002001t_bg.png'); .no-repeat; .h(5182);
-        article { .mt(562);
+        article { .mt(570);
           .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal;}
           .content { position: static;
+            .acc { .ib; }
             .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(155); }
             .cont-pi { .fs(36); .lh(44); color:#fff; .mt(75); mix-blend-mode: normal; .tl; .w(1030); .tl; .ib; }
             .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(150,1650); opacity: 0.8;
@@ -794,6 +806,7 @@ html { .one; }
         article { .mt(475);
           .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal;}
           .content { position: static;
+            .acc { .ib; }
             .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(145); }
             .cont-pi { .fs(36); .lh(44); color:#fff; .mt(75); mix-blend-mode: normal; .w(1055); .tl; .ib; }
             .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(150,1650); opacity: 0.8; transform: none;
@@ -877,6 +890,7 @@ html { .one; }
         article { .mt(480);
           .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal;}
           .content { position: static;
+            .acc { .ib; }
             .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(155); }
             .cont-pi { .fs(36); .lh(44); color:#fff; .mt(75); mix-blend-mode: normal; .w(1045); .ib; .tl;  }
             .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(150,1650); opacity: 0.8; transform: none;
@@ -890,7 +904,7 @@ html { .one; }
               s {.fs(26); .lh(32); .mt(13); .ti(-17); .ml(17); .block; }
             }
             .cont-txt2 { .lt(1110,2006); }
-            .cell { .abs; .lt(0,2357); .wf; .p(110,70); .-box; .tl;
+            .cell { .abs; .lt(0,2357); .wf; .p(110,70); .-box; .tl; .m(0); background: none;
               .c-tit { .fs(48); .lh(58); color:#666; .bold; .mb(30); }
               .c-txt { .fs(36); .lh(44); .g-color; .mb(30); .w(860);
                 s { .mt(20); .ti(-22); .ml(22); .block; }
@@ -913,6 +927,7 @@ html { .one; }
         article { .mt(580);
           .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal;}
           .content { position: static;
+            .acc { .ib; }
             .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(155); }
             .cont-pi { .fs(36); .lh(44); color:#fff; .mt(75); mix-blend-mode: normal; .w(1045); .ib; .tl; }
             .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(150,1640); opacity: 0.8; .tl; width:auto;
@@ -971,7 +986,7 @@ html { .one; }
         }
       }
       // 005001
-      &.m005001 {  .contain('../img/005001t_bg.png'); .no-repeat; .h(7769);
+      &.m005001 {  .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/005001t_bg.png'); .no-repeat; .h(7769);
         article { .mt(117);
           .visual h2 { .fs(88); .lh(105); .bold; .g-color; .sharp-b; .tl;
             s { .sharp-m; .ib; }
