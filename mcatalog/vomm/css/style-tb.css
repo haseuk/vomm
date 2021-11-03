@@ -160,9 +160,9 @@ html {
     line-height: 2.09960938vw;
   }
   .container .wrap.m004001 {
+    background-repeat: no-repeat;
     background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001t_bg.png');
     background-size: contain;
-    background-repeat: no-repeat;
     height: 75vw;
   }
   .container .wrap.m004001 article .content .cont-p {
@@ -332,6 +332,10 @@ html {
     left: auto;
     bottom: auto;
   }
+  .container .wrap.m004001007 article .content .txt {
+    margin-top: 21.72851563vw;
+    z-index: 1;
+  }
   .container .wrap.m004003001 {
     background-repeat: no-repeat;
     background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue//img/004003001t_01.png');
@@ -487,10 +491,18 @@ html {
     margin-top: 8.15429688vw;
   }
   .container .wrap.m002 {
-    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/002t_bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 75vw;
+    background: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/002t_bg.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .container .wrap.m002 article {
+    margin-top: 0vw;
+    position: absolute;
+    left: 4.8828125vw;
+    top: 40%;
+    right: auto;
+    bottom: auto;
+    transform: translateY(-50%);
   }
   .container .wrap.m002 article .content .cont-p {
     padding-left: 9.27734375vw;
@@ -1315,6 +1327,7 @@ html {
   }
   .container .wrap.m001001 article .content .cont-p2 {
     width: 46.63085938vw;
+    letter-spacing: -0.02em;
   }
   .container .wrap.m001001 article .content .v-wrap {
     margin-top: 5.12695313vw;
@@ -1696,6 +1709,7 @@ html {
     top: 0vw;
     right: auto;
     bottom: auto;
+    margin-bottom: 0vw;
   }
   .container .wrap.m001004 article .content .t1 {
     left: 4.296875vw;
@@ -1759,6 +1773,10 @@ html {
     right: auto;
     bottom: auto;
   }
+  .container .wrap.m001004 article .content .cell {
+    background-color: unset;
+    position: unset;
+  }
   .container .wrap.m002001 {
     background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/002001t_bg.png');
     background-size: contain;
@@ -1766,13 +1784,28 @@ html {
     height: 253.02734375vw;
   }
   .container .wrap.m002001 article {
-    margin-top: 27.83203125vw;
+    margin-top: 17.08984375vw;
   }
   .container .wrap.m002001 article .visual h2 {
     font-size: 3.7109375vw;
     line-height: 4.39453125vw;
     color: #fff;
     mix-blend-mode: normal;
+    position: relative;
+  }
+  .container .wrap.m002001 article .visual h2:after {
+    content: '';
+    display: block;
+    width: 7.8125vw;
+    height: 14.40429688vw;
+    position: absolute;
+    left: 0vw;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: translate(0, -50%);
   }
   .container .wrap.m002001 article .content {
     position: static;
@@ -1964,13 +1997,28 @@ html {
     height: 323.48632813vw;
   }
   .container .wrap.m002002 article {
-    margin-top: 23.19335938vw;
+    margin-top: 17.08984375vw;
   }
   .container .wrap.m002002 article .visual h2 {
     font-size: 3.7109375vw;
     line-height: 4.39453125vw;
     color: #fff;
     mix-blend-mode: normal;
+    position: relative;
+  }
+  .container .wrap.m002002 article .visual h2:after {
+    content: '';
+    display: block;
+    width: 7.8125vw;
+    height: 14.40429688vw;
+    position: absolute;
+    left: 0vw;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: translate(0, -50%);
   }
   .container .wrap.m002002 article .content {
     position: static;
@@ -2413,13 +2461,27 @@ html {
     height: 267.578125vw;
   }
   .container .wrap.m002003 article {
-    margin-top: 23.4375vw;
+    margin-top: 17.08984375vw;
   }
   .container .wrap.m002003 article .visual h2 {
     font-size: 3.7109375vw;
     line-height: 4.39453125vw;
     color: #fff;
     mix-blend-mode: normal;
+  }
+  .container .wrap.m002003 article .visual h2:after {
+    content: '';
+    display: block;
+    width: 7.8125vw;
+    height: 14.40429688vw;
+    position: absolute;
+    left: 0vw;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: translate(0, -50%);
   }
   .container .wrap.m002003 article .content {
     position: static;
@@ -2608,13 +2670,28 @@ html {
     height: 253.90625vw;
   }
   .container .wrap.m002004 article {
-    margin-top: 28.3203125vw;
+    margin-top: 17.08984375vw;
   }
   .container .wrap.m002004 article .visual h2 {
     font-size: 3.7109375vw;
     line-height: 4.39453125vw;
     color: #fff;
     mix-blend-mode: normal;
+    position: relative;
+  }
+  .container .wrap.m002004 article .visual h2:after {
+    content: '';
+    display: block;
+    width: 7.8125vw;
+    height: 14.40429688vw;
+    position: absolute;
+    left: 0vw;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: translate(0, -50%);
   }
   .container .wrap.m002004 article .content {
     position: static;
@@ -2950,20 +3027,24 @@ html {
     bottom: auto;
   }
   .container .wrap.m000 {
-    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/000t_bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 75vw;
+    background: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/000t_bg.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
   }
   .container .wrap.m001 {
-    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/001t_bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 75vw;
+    background: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/001t_bg.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
   }
   .container .wrap.m001 article {
-    padding-left: 1.07421875vw;
-    box-sizing: border-box;
+    margin-top: 0vw !important;
+    position: absolute;
+    left: 4.8828125vw;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(0, -50%);
   }
   .container .wrap.m001 article .tit {
     font-size: 4.296875vw;
@@ -2971,7 +3052,7 @@ html {
     color: #fff;
     font-family: "Samsung Sharp Sans Bold", sans-serif;
     text-align: left;
-    margin-top: 25.87890625vw;
+    margin-top: 0vw;
   }
   .container .wrap.m001 article .txt {
     font-size: 1.5625vw;
@@ -2996,14 +3077,17 @@ html {
     transform: none;
   }
   .container .wrap.m005 {
-    background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/005t_bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 75vw;
+    background: url('http://www.vo-mm.com/Samsung/M-Catalogue/img/005t_bg.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
   }
   .container .wrap.m005 article {
-    padding-left: 1.07421875vw;
-    box-sizing: border-box;
+    position: absolute;
+    left: 4.8828125vw;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(0, -50%);
   }
   .container .wrap.m005 article .tit {
     font-size: 4.296875vw;
@@ -3011,7 +3095,7 @@ html {
     color: #fff;
     font-family: "Samsung Sharp Sans Bold", sans-serif;
     text-align: left;
-    margin-top: 26.85546875vw;
+    margin-top: 0vw;
   }
   .container .wrap.m005 article .txt {
     font-size: 1.5625vw;

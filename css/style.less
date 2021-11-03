@@ -1,0 +1,106 @@
+@import "asset";
+@use-vw: true;
+@vw:1080;
+
+.one { font-family: SamsungOne, sans-serif; }
+.sharp-b { font-family: "Samsung Sharp Sans Bold", sans-serif; }
+.sharp-m { font-family: "Samsung Sharp Sans Medium", sans-serif; }
+.sharp-r { font-family: "Samsung Sharp Sans Regular", sans-serif; }
+.b-color { color:#0088b6; }
+.g-color { color:#404040; }
+img { backface-visibility: hidden; display: block; }
+p, h2 { .keep-all; }
+
+html { .one; }
+.container {
+  .wrap { .p(76,70); .-box;
+    //공통사항
+    .mo { .ib; }
+    .web { .hide; }
+
+    header {
+      .tit { .fs(51); .lh(64); .b-color; .pl(31); .-box; .rel; .sharp-b;
+        &:after { .cnt; .wh(13,38); .bgc(#0082b2); .abs; .lt(0,7); }
+      }
+    }
+    article { .tc; .mt(130);
+      .visual {
+        h2 { .fs(88); .g-color; .lh(105); .sharp-b; opacity: 0.8; }
+      }
+      .content { .mt(90);
+        .cont-sub-tit { .fs(48); .lh(59); .b-color; .sharp-b; }
+        .cont-p { .fs(48); .lh(58); .mt(55); .g-color; .tl; .regular; }
+        img { .w(940); }
+        .txt { .fs(32); .lh(40); color:#808285; .light; .tl; .ls(-0.028em); }
+      }
+    }
+    // 004001
+    &.m004001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004001_bg.png'); .no-repeat; .h(3000);
+      p, h2 { mix-blend-mode: multiply; }
+      article {
+        .visual {
+          h2 { .b-color; opacity: 1; }
+        }
+        .content {
+          .cont-p { .fs(44); .lh(52); .mt(0); .b-color; .sharp-m; .tc; }
+          img { .h(920); }
+        }
+      }
+    }
+    // 004001003
+    &.m004001003 {
+      article {
+        .content {
+          img { .h(1267); }
+        }
+      }
+    }
+    // 004001004
+    &.m004001004 {
+      article {
+        .visual {
+          h2 { .ls(-0.01em); }
+        }
+        .content {
+          img { .h(1085); }
+        }
+      }
+    }
+    // 004001008
+    &.m004001008 {
+      article {
+        .content {
+          img { .h(585); }
+        }
+      }
+    }
+    // 004002001
+    &.m004002001 {
+      article {
+        .content {
+          img { .wh(1080,1507); .ml(-70); }
+        }
+      }
+    }
+    // 004003003
+    &.m004003003 {
+      article {
+        .content {
+          img.mo { .h(883); }
+        }
+      }
+    }
+    // 004002002
+    &.m004002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue/img/004002002_bg.png'); .no-repeat; .h(3880);
+      article {
+        .content {
+          .cont-sub-tit {
+            &.cont-sub-tit1 { .mt(1396); }
+          }
+          .cont-p { .m(26,0,80); }
+          .txt { .mt(160); }
+        }
+      }
+    }
+  }
+}
