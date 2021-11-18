@@ -10,7 +10,6 @@
 .g-color { color:#404040; }
 img { backface-visibility: hidden; display: block; }
 p, h2 { .keep-all; }
-
 html { .one; }
 
 @media screen and (min-width: 1081px) {
@@ -24,7 +23,7 @@ html { .one; }
   .container004003001,.container004003002,.container004003003,.container004003004,.container004003005,.container004003006,.container004003007,.container004003008,.container004003009,.container004003010,
   .container004004001,.container004004002,.container004004003,.container004004004,.container004004005,.container004004006,
   .container004005001,.container004005002,.container004005003,.container004005004,.container004005005,.container004005006,.container004005007,.container004005008,
-  .container005002001,.container005002002,.container005002003,.container005002004,.container005002005,.container005002006,.container005002007,.container005002008,.container005002009 {
+  .container005002001,.container005002002,.container005002003,.container005002004,.container005002005,.container005002006,.container005002007,.container005002008,.container005002009 { .rel;
     .wrap { .p(78,88); .-box; overflow: hidden;
 
       //공통사항
@@ -88,7 +87,7 @@ html { .one; }
         }
       }
       // 004001
-      &.m004001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/004001t_bg.jpg'); .h(1536);
+      &.m004001 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/004001t_bg.jpg'); .h(1536); .no-repeat;
         article {
           .content {
             .cont-p {.w(990); .ml(9); }
@@ -144,7 +143,7 @@ html { .one; }
         }
       }
       // 004002002
-      &.m004002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/004002002t_bg.jpg'); .no-repeat; .h(2287);
+      &.m004002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/004002002t_bg.jpg'); .no-repeat; .h(2287); .bg-y(0);
         article {
           .content {
             .cont-sub-tit { .fs(48); .lh(58);
@@ -159,8 +158,11 @@ html { .one; }
         }
       }
       // 004003
-      &.m004003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/004003t_bg.jpg'); .no-repeat; .h(1536);
+      &.m004003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/004003t_bg.jpg'); .no-repeat; .h(1536); .pb(0); .-box;
         article {
+          .visual {
+            h2 { .fs(88); }
+          }
           .content {
             .cont-p { .w(1070); }
           }
@@ -532,7 +534,7 @@ html { .one; }
         article {
           .content {
             .cont-sub-tit, .cont-p { .fs(48); .lh(58); }
-            .cont-p1 { .w(1110); .mb(580); }
+            .cont-p1 { .w(1110); .mb(580); .rel; z-index: 1; }
             .cont-sub-tit1 { .mt(590); }
             img {
               &.img1 { .wh(1456,1195); .abs; .rt(0,120); }
@@ -567,7 +569,7 @@ html { .one; }
         article {
           .content {
             .cont-sub-tit, .cont-p { .fs(48); .lh(58); }
-            .cont-p { .w(995); }
+            .cont-p { .w(995); .rel; }
             img { .wh(1960,1378); .m(-600,0,0,-0); }
             .cont-p1 { .fs(24); }
             .txt { .mt(110); }
@@ -594,7 +596,7 @@ html { .one; }
         article {
           .content {
             .cont-sub-tit, .cont-p { .fs(48); .lh(58); }
-            .cont-p { .w(1436); }
+            .cont-p { .w(1436); .rel; z-index: 1; }
             img { .wh(1872,792); .m(-90,0,0,0); }
           }
         }
@@ -652,7 +654,7 @@ html { .one; }
       &.m005002006 {
         article {
           .content { .rel;
-            .cont-p { .mt(103); .w(1198); }
+            .cont-p { .mt(103); .w(1198); .rel; z-index: 1; }
             .img1 { .wh(1872,1981); .m(-200,0,0,0); }
             .cont-p1 { .wh(1872,1544);  .abs; .lt(132,770); background: none; .mt(0); .p(0,76);
               span { .fs(36); .bold; color:#fff; .wh(315,168); .lh(168); .block; .tc; .mb(70); }
@@ -747,6 +749,9 @@ html { .one; }
             .p5 {.lt(996,1750); }
             .p6 {.t(3090); }
             .p7 {.lt(996,3090); }
+            .t4 { .pt(0); }
+            .t4, .t5, .t6, .t7 { background:none; .w(938); .ml(0); .mb(0); .p(0); }
+            .p4, .p5, .p6, .p7 { background:none; .w(884); .ml(0); .mb(0); .p(0); }
           }
         }
       }
@@ -800,29 +805,30 @@ html { .one; }
             .cont-txt4 { .lt(1510,2010); }
             .txt { .abs; .lt(150,0); }
             .txt1 { .t(2340); }
-            .txt2 { .lt(88,4960); }
-            .cont-sub-tit { .fs(48); .lh(58); .b-color; .sharp-b; .abs; .lt(88,0); width:auto; }
+            .txt2 { .lt(88,4960); .mt(0); }
+            .cont-sub-tit { .fs(48)!important; .lh(58); .b-color; .sharp-b; .abs; .lt(88,0); width:auto; }
             .cont-sub-tit1 { .t(2580); }
             .cont-sub-tit2 { .lt(1030,3185); }
             .cont-sub-tit3 { .t(3790); }
             .cont-sub-tit4 { .lt(1030,4390); }
-            .cont-p { .fs(36); .lh(44); .one; .g-color; .abs; .lt(88,0); .w(930); .tl; .mt(0); }
+            .cont-p { .fs(36)!important; .lh(44); .one; .g-color; .abs; .lt(88,0); .w(930); .tl; .mt(0); }
             .cont-p1 { .t(2680); }
             .cont-p2 { .lt(1030,3285); }
             .cont-p3 { .t(3890); }
             .cont-p4 { .lt(1030,4490); }
+            .cell { .p(0)!important; background: none!important; width: unset!important; }
           }
         }
       }
       // 002002
-      &.m002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002002t_bg.jpg'); .no-repeat; .h(6625);
-        article { .mt(350);
+      &.m002002 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002002t_bg.jpg'); .no-repeat; .h(6625); .pb(0);
+        article { .mt(350); position: static;
           .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal; .rel;
             &:after { .cnt; .wh(160,295); .abs; .lt(0,50%); .-t(#fff); .-b(#fff); transform: translate(0,-50%); }
           }
-          .content { position: static;
+          .content { position: static; .mt(0);
             .acc { .ib; }
-            .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(145); }
+            .sub-tit { .fs(48); .lh(58); color:#fff; .sharp-b; mix-blend-mode: normal; .mt(145); .mb(0); }
             .cont-pi { .fs(36); .lh(44); color:#fff; .mt(75); mix-blend-mode: normal; .w(1055); .tl; .ib; }
             .cont-tit { .fs(48); .lh(58); .g-color; .sharp-m; .abs; .lt(150,1650); opacity: 0.8; transform: none;
               s { .sharp-b; }
@@ -837,13 +843,13 @@ html { .one; }
             .cont-txt3 { .lt(1260,2010); }
             .txt { .abs; .lt(150,0); }
             .txt1 { .t(2215); }
-            .cont-sub-tit { .fs(48); .lh(58); .b-color; .sharp-b; .abs; .lt(88,0); width: auto; }
+            .cont-sub-tit { .fs(48)!important; .lh(58)!important; .b-color; .sharp-b; .abs; .lt(88,0); width: auto; }
             .cont-sub-tit1 { .t(2450); }
             .cont-sub-tit2 { .lt(1020,3905); }
-            .cont-p { .fs(36); .lh(44); .one; .g-color; .abs; .lt(88,0); .w(940); .tl; .mt(0); }
+            .cont-p { .fs(36)!important; .lh(44)!important; .one; .g-color; .abs; .lt(88,0); .w(940); .tl; .mt(0); }
             .cont-p1 { .t(2550); }
             .cont-p2 { .lt(1020,4005); }
-            .sub-tit-type { .fs(36); .lh(44); .g-color; .sharp-b; .tl; .abs; .lt(88,3100); }
+            .sub-tit-type { .fs(36)!important; .lh(44)!important; .g-color; .sharp-b; .tl; .abs; .lt(88,3100); }
             .sub-tit-type1 { .lt(88,3100); }
             .sub-tit-type2 { .lt(585,3100); }
             .sub-tit-type3 { .lt(1065,3100); }
@@ -852,7 +858,7 @@ html { .one; }
             .sub-tit-type6 { .lt(585,4600); }
             .sub-tit-type7 { .lt(1065,4600); }
             .sub-tit-type8 { .lt(1540,4600); }
-            .sub-txt { .fs(36); .lh(44); .g-color; .tl; .abs; .lt(88,3240); .w(400); }
+            .sub-txt { .fs(36)!important; .lh(44)!important; .g-color; .tl; .abs; .lt(88,3240); .w(400); }
             .sub-txt1 { .lt(88,3240); }
             .sub-txt2 { .lt(585,3240); }
             .sub-txt3 { .lt(1065,3240); }
@@ -861,10 +867,16 @@ html { .one; }
             .sub-txt6 { .lt(585,4740); }
             .sub-txt7 { .lt(1065,4740); }
             .sub-txt8 { .lt(1540,4740); }
-            .bottom { .abs; .lt(1020,5640); .p(0);
-              .tit-type { .fs(54); .lh(65); .sharp-m; .tl; color:#fff;.-box; mix-blend-mode: normal; }
+            .bottom { .abs; .lt(1020,5660); .p(0); background: none; .ml(0); width:auto;
+              .tit-type { .fs(54); .lh(65); .sharp-m; .tl; color:#fff;.-box; mix-blend-mode: normal; .mb(0); }
               .tit-sub { .fs(48); .lh(58); .sharp-b; .tl; color:#fff; .mt(80); .-box; mix-blend-mode: normal;}
               .txt-sub { .fs(36); .lh(44); .tl; color:#fff; .mt(40); .-box; mix-blend-mode: normal; .w(935); }
+            }
+            .cell { .p(0)!important; background: none!important; width: unset!important;
+              .cell-inner { .mb(0)!important; position: unset;
+                &:after { .hide!important; }
+                .inner { width:auto!important; }
+              }
             }
           }
         }
@@ -874,26 +886,26 @@ html { .one; }
         article { .mt(480);
           .visual h2 { color:#fff; opacity: 1; }
           .content { position: static;
-            .cont-w { .abs; .lt; .wh(1024,790); .p(112,88); .-box; .tl;
+            .cont-w { .abs; .lt; .wh(1024,790); .p(112,88); .-box; .tl; .ml(0);
               .c-tit {.fs(48); .lh(58); .sharp-m; color:#fff; }
-              .c-txt { .fs(44); .sharp-b; color:#fff; .mt(230); }
+              .c-txt { .fs(44); .sharp-b; color:#fff; .mt(230);  }
             }
             .cont-w1 { .t(1540); }
-            .cont-w2 { .lt(1024,1540);
+            .cont-w2 { .lt(1024,1540); background: none;
               .c-tit, .c-txt { color:#58595b; }
               .c-txt { .mt(280); }
             }
-            .cont-w3 { .t(3577); }
-            .cont-w4 { .lt(1024,3577);
+            .cont-w3 { .t(3577); background: none;}
+            .cont-w4 { .lt(1024,3577); background: none;
               .c-tit, .c-txt { color:#58595b; }
             }
-            .cont-wrap { .abs; .lt; .w(1024); .p(112,70,0); .-box; .tl; .clear;
+            .cont-wrap { .abs; .lt; .w(1024); .p(112,70,0); .-box; .tl; .clear; .ml(0);
               .c-tit { .fs(44); .b-color; .bold; .mb(40);
                 span { .regular; .fr; }
               }
-              .c-txt { .fs(40); .lh(48); .g-color; .mb(95); }
+              .c-txt { .fs(40); .lh(48); .g-color; .mb(95); .h(190); }
             }
-            .cont-wrap1 { .t(2330); }
+            .cont-wrap1 { .t(2330); .mt(0); background: none; }
             .cont-wrap2 { .lt(1024,2330); }
             .cont-wrap3 { .t(4368); }
             .cont-wrap4 { .lt(1024,4368); }
@@ -901,8 +913,8 @@ html { .one; }
         }
       }
       // 002003
-      &.m002003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002003t_bg.jpg'); .no-repeat; .h(5480);
-        article { .mt(350);
+      &.m002003 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002003t_bg.jpg'); .no-repeat; .h(5480); max-height: unset;
+        article { .mt(350); position: static;
           .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal;
             &:after { .cnt; .wh(160,295); .abs; .lt(0,50%); .-t(#fff); .-b(#fff); transform: translate(0,-50%); }
           }
@@ -928,20 +940,22 @@ html { .one; }
               }
             }
             .txt { .fs(28); .mt(0); .tr; .pr(115); .-box; }
-            .cont-sub-tit { .fs(48); .lh(58); .b-color; .sharp-b; .abs; .lt(70,0);  }
+            .cont-sub-tit { .fs(48); .lh(58); .b-color; .sharp-b; .abs; .lt(70,0); width: auto; }
             .cont-sub-tit1 { .t(3095); }
             .cont-sub-tit2 { .lt(1064,3920); }
             .cont-sub-tit3 { .t(4626); }
-            .cont-p { .fs(36); .lh(44); .one; .g-color; .abs; .lt(70,0); .w(840); .tl; .mt(0); }
+            .cont-p { .fs(36); .lh(44); .one; .g-color; .abs; .lt(70,0); .w(840); .tl; .mt(0); .ml(0); .p(0); }
             .cont-p1 { .t(3195); }
             .cont-p2 { .lt(1064,4020); .w(900); }
             .cont-p3 { .t(4726); }
+            .cont-sub-tit1 { .pt(0); }
           }
         }
       }
       // 002004
-      &.m002004 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002004t_bg.jpg'); .no-repeat; .h(5200);
-        article { .mt(350);
+      &.m002004 { .contain('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002004t_bg.jpg'); .no-repeat; .h(5200); max-height: unset;
+        &:after { .hide; }
+        article { .mt(350); position: static;
           .visual h2 { .fs(76); .lh(90); color:#fff; mix-blend-mode: normal;.rel;
             &:after { .cnt; .wh(160,295); .abs; .lt(0,50%); .-t(#fff); .-b(#fff); transform: translate(0,-50%); }
           }
@@ -962,21 +976,21 @@ html { .one; }
             .cont-txt3 { .lt(1457,2014); }
             .txt { .fs(24); .g-color; .abs; .lt(150,0); .tl; width:auto; }
             .txt1 {.t(2340); }
-            .txt2 {.lt(88,1240); .w(1600); }
+            .txt2 {.lt(88,4950); .w(1600); .p(0); }
 
-            .c-wrap { .abs; .lt; .tl; .p(85,70); .-box;
-              .cont-sub-tit { .fs(48); .lh(58); .b-color; .sharp-b; .mb(40);
+            .cell { .abs; .lt; .tl; .p(85,70)!important; .-box; background: none!important; width:auto; .ml(0);
+              .cont-sub-tit { .fs(48); .lh(58); .b-color; .sharp-b; .mb(40); .p(0);
                 span { .fs(44); .lh(48); .one; .g-color; .block; }
               }
-              .cont-p { .fs(36); .lh(44); .one; .g-color; .w(890); .tl;
+              .cont-p { .fs(36); .lh(44); .one; .g-color; .w(890); .tl; .p(0);
                 s { .block; .mb(15); .ti(-23); .ml(23); }
               }
             }
-            .c-wrap1 { .t(2450); }
-            .c-wrap2 { .t(3062);
+            .cell1 { .t(2450); }
+            .cell2 { .t(3062);
               .cont-p { .w(890); }
             }
-            .c-wrap3 { .t(3710); }
+            .cell3 { .t(3710); }
           }
         }
       }

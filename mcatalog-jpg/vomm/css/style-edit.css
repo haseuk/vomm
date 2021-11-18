@@ -2194,10 +2194,9 @@ html {
 .container005002007 .wrap.m004001,
 .container005002008 .wrap.m004001,
 .container005002009 .wrap.m004001 {
-  background-repeat: no-repeat;
   background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/004001_bg.jpg');
   background-size: contain;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   height: auto;
 }
 .container000 .wrap.m004001 article .content img,
@@ -2816,7 +2815,7 @@ html {
 .container005002007 .wrap.m004002002 article .content .cont-sub-tit.cont-sub-tit1,
 .container005002008 .wrap.m004002002 article .content .cont-sub-tit.cont-sub-tit1,
 .container005002009 .wrap.m004002002 article .content .cont-sub-tit.cont-sub-tit1 {
-  margin-top: 146.2962963vw;
+  margin-top: 129.25925926vw;
 }
 .container000 .wrap.m004002002 article .content .cont-p,
 .container001 .wrap.m004002002 article .content .cont-p,
@@ -13373,78 +13372,86 @@ html {
 .container005002009 .wrap.m001002 article .content .img10 {
   margin-top: 5.55555556vw;
 }
-.container000 .wrap.m001003,
-.container001 .wrap.m001003,
-.container002 .wrap.m001003,
-.container003 .wrap.m001003,
-.container004 .wrap.m001003,
-.container005 .wrap.m001003,
-.container001001 .wrap.m001003,
-.container001002 .wrap.m001003,
-.container001003 .wrap.m001003,
-.container001004 .wrap.m001003,
-.container002001 .wrap.m001003,
-.container002002 .wrap.m001003,
-.container002003 .wrap.m001003,
-.container002004 .wrap.m001003,
-.container004001 .wrap.m001003,
-.container004002 .wrap.m001003,
-.container004003 .wrap.m001003,
-.container004004 .wrap.m001003,
-.container004005 .wrap.m001003,
-.container005001 .wrap.m001003,
-.container005002 .wrap.m001003,
-.container004001001 .wrap.m001003,
-.container004001002 .wrap.m001003,
-.container004001003 .wrap.m001003,
-.container004001004 .wrap.m001003,
-.container004001005 .wrap.m001003,
-.container004001006 .wrap.m001003,
-.container004001007 .wrap.m001003,
-.container004001008 .wrap.m001003,
-.container004002001 .wrap.m001003,
-.container004002002 .wrap.m001003,
-.container004002003 .wrap.m001003,
-.container004002004 .wrap.m001003,
-.container004003001 .wrap.m001003,
-.container004003002 .wrap.m001003,
-.container004003003 .wrap.m001003,
-.container004003004 .wrap.m001003,
-.container004003005 .wrap.m001003,
-.container004003006 .wrap.m001003,
-.container004003007 .wrap.m001003,
-.container004003008 .wrap.m001003,
-.container004003009 .wrap.m001003,
-.container004003010 .wrap.m001003,
-.container004004001 .wrap.m001003,
-.container004004002 .wrap.m001003,
-.container004004003 .wrap.m001003,
-.container004004004 .wrap.m001003,
-.container004004005 .wrap.m001003,
-.container004004006 .wrap.m001003,
-.container004005001 .wrap.m001003,
-.container004005002 .wrap.m001003,
-.container004005003 .wrap.m001003,
-.container004005004 .wrap.m001003,
-.container004005005 .wrap.m001003,
-.container004005006 .wrap.m001003,
-.container004005007 .wrap.m001003,
-.container004005008 .wrap.m001003,
-.container005002001 .wrap.m001003,
-.container005002002 .wrap.m001003,
-.container005002003 .wrap.m001003,
-.container005002004 .wrap.m001003,
-.container005002005 .wrap.m001003,
-.container005002006 .wrap.m001003,
-.container005002007 .wrap.m001003,
-.container005002008 .wrap.m001003,
-.container005002009 .wrap.m001003 {
+.container000 .wrap.m001003:after,
+.container001 .wrap.m001003:after,
+.container002 .wrap.m001003:after,
+.container003 .wrap.m001003:after,
+.container004 .wrap.m001003:after,
+.container005 .wrap.m001003:after,
+.container001001 .wrap.m001003:after,
+.container001002 .wrap.m001003:after,
+.container001003 .wrap.m001003:after,
+.container001004 .wrap.m001003:after,
+.container002001 .wrap.m001003:after,
+.container002002 .wrap.m001003:after,
+.container002003 .wrap.m001003:after,
+.container002004 .wrap.m001003:after,
+.container004001 .wrap.m001003:after,
+.container004002 .wrap.m001003:after,
+.container004003 .wrap.m001003:after,
+.container004004 .wrap.m001003:after,
+.container004005 .wrap.m001003:after,
+.container005001 .wrap.m001003:after,
+.container005002 .wrap.m001003:after,
+.container004001001 .wrap.m001003:after,
+.container004001002 .wrap.m001003:after,
+.container004001003 .wrap.m001003:after,
+.container004001004 .wrap.m001003:after,
+.container004001005 .wrap.m001003:after,
+.container004001006 .wrap.m001003:after,
+.container004001007 .wrap.m001003:after,
+.container004001008 .wrap.m001003:after,
+.container004002001 .wrap.m001003:after,
+.container004002002 .wrap.m001003:after,
+.container004002003 .wrap.m001003:after,
+.container004002004 .wrap.m001003:after,
+.container004003001 .wrap.m001003:after,
+.container004003002 .wrap.m001003:after,
+.container004003003 .wrap.m001003:after,
+.container004003004 .wrap.m001003:after,
+.container004003005 .wrap.m001003:after,
+.container004003006 .wrap.m001003:after,
+.container004003007 .wrap.m001003:after,
+.container004003008 .wrap.m001003:after,
+.container004003009 .wrap.m001003:after,
+.container004003010 .wrap.m001003:after,
+.container004004001 .wrap.m001003:after,
+.container004004002 .wrap.m001003:after,
+.container004004003 .wrap.m001003:after,
+.container004004004 .wrap.m001003:after,
+.container004004005 .wrap.m001003:after,
+.container004004006 .wrap.m001003:after,
+.container004005001 .wrap.m001003:after,
+.container004005002 .wrap.m001003:after,
+.container004005003 .wrap.m001003:after,
+.container004005004 .wrap.m001003:after,
+.container004005005 .wrap.m001003:after,
+.container004005006 .wrap.m001003:after,
+.container004005007 .wrap.m001003:after,
+.container004005008 .wrap.m001003:after,
+.container005002001 .wrap.m001003:after,
+.container005002002 .wrap.m001003:after,
+.container005002003 .wrap.m001003:after,
+.container005002004 .wrap.m001003:after,
+.container005002005 .wrap.m001003:after,
+.container005002006 .wrap.m001003:after,
+.container005002007 .wrap.m001003:after,
+.container005002008 .wrap.m001003:after,
+.container005002009 .wrap.m001003:after {
+  content: '';
+  display: block;
   background-repeat: no-repeat;
   background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/001003_bg.jpg');
   background-size: contain;
   background-repeat: repeat;
-  height: auto;
-  padding-bottom: 0vw;
+  width: 100vw;
+  height: 275.64814815vw;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
 }
 .container000 .wrap.m001003 article,
 .container001 .wrap.m001003 article,
@@ -13582,6 +13589,7 @@ html {
 .container005002009 .wrap.m001003 article .visual h2 {
   color: #a5d1e6;
   mix-blend-mode: normal;
+  white-space: nowrap;
 }
 .container000 .wrap.m001003 article .content .cont-p,
 .container001 .wrap.m001003 article .content .cont-p,
@@ -14150,7 +14158,7 @@ html {
   font-size: 3.7037037vw;
   line-height: 4.44444444vw;
   color: #404040;
-  margin-top: 4.62962963vw;
+  padding-top: 4.62962963vw;
 }
 .container000 .wrap.m001003 article .content .img1,
 .container001 .wrap.m001003 article .content .img1,
@@ -17795,12 +17803,87 @@ html {
 .container005002007 .wrap.m002002,
 .container005002008 .wrap.m002002,
 .container005002009 .wrap.m002002 {
-  background-repeat: no-repeat;
-  background-image: url('https://dvmpro.mkt.samsung.com/dvm_server/dvms2/002002_00.jpg');
-  background-size: contain;
-  background-repeat: repeat;
-  height: auto;
   padding-bottom: 0vw;
+}
+.container000 .wrap.m002002:after,
+.container001 .wrap.m002002:after,
+.container002 .wrap.m002002:after,
+.container003 .wrap.m002002:after,
+.container004 .wrap.m002002:after,
+.container005 .wrap.m002002:after,
+.container001001 .wrap.m002002:after,
+.container001002 .wrap.m002002:after,
+.container001003 .wrap.m002002:after,
+.container001004 .wrap.m002002:after,
+.container002001 .wrap.m002002:after,
+.container002002 .wrap.m002002:after,
+.container002003 .wrap.m002002:after,
+.container002004 .wrap.m002002:after,
+.container004001 .wrap.m002002:after,
+.container004002 .wrap.m002002:after,
+.container004003 .wrap.m002002:after,
+.container004004 .wrap.m002002:after,
+.container004005 .wrap.m002002:after,
+.container005001 .wrap.m002002:after,
+.container005002 .wrap.m002002:after,
+.container004001001 .wrap.m002002:after,
+.container004001002 .wrap.m002002:after,
+.container004001003 .wrap.m002002:after,
+.container004001004 .wrap.m002002:after,
+.container004001005 .wrap.m002002:after,
+.container004001006 .wrap.m002002:after,
+.container004001007 .wrap.m002002:after,
+.container004001008 .wrap.m002002:after,
+.container004002001 .wrap.m002002:after,
+.container004002002 .wrap.m002002:after,
+.container004002003 .wrap.m002002:after,
+.container004002004 .wrap.m002002:after,
+.container004003001 .wrap.m002002:after,
+.container004003002 .wrap.m002002:after,
+.container004003003 .wrap.m002002:after,
+.container004003004 .wrap.m002002:after,
+.container004003005 .wrap.m002002:after,
+.container004003006 .wrap.m002002:after,
+.container004003007 .wrap.m002002:after,
+.container004003008 .wrap.m002002:after,
+.container004003009 .wrap.m002002:after,
+.container004003010 .wrap.m002002:after,
+.container004004001 .wrap.m002002:after,
+.container004004002 .wrap.m002002:after,
+.container004004003 .wrap.m002002:after,
+.container004004004 .wrap.m002002:after,
+.container004004005 .wrap.m002002:after,
+.container004004006 .wrap.m002002:after,
+.container004005001 .wrap.m002002:after,
+.container004005002 .wrap.m002002:after,
+.container004005003 .wrap.m002002:after,
+.container004005004 .wrap.m002002:after,
+.container004005005 .wrap.m002002:after,
+.container004005006 .wrap.m002002:after,
+.container004005007 .wrap.m002002:after,
+.container004005008 .wrap.m002002:after,
+.container005002001 .wrap.m002002:after,
+.container005002002 .wrap.m002002:after,
+.container005002003 .wrap.m002002:after,
+.container005002004 .wrap.m002002:after,
+.container005002005 .wrap.m002002:after,
+.container005002006 .wrap.m002002:after,
+.container005002007 .wrap.m002002:after,
+.container005002008 .wrap.m002002:after,
+.container005002009 .wrap.m002002:after {
+  content: '';
+  display: block;
+  background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002002_00.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+  width: 170%;
+  height: 324.07407407vw;
 }
 .container000 .wrap.m002002 article,
 .container001 .wrap.m002002 article,
@@ -18441,13 +18524,10 @@ html {
 .container005002007 .wrap.m002002 article .content .cell,
 .container005002008 .wrap.m002002 article .content .cell,
 .container005002009 .wrap.m002002 article .content .cell {
-  background-color: #fff;
-  width: 100vw;
-  margin-left: -6.48148148vw;
   padding-top: 12.03703704vw;
-  padding-right: 6.48148148vw;
+  padding-right: 0vw;
   padding-bottom: 12.03703704vw;
-  padding-left: 6.48148148vw;
+  padding-left: 0vw;
   box-sizing: border-box;
 }
 .container000 .wrap.m002002 article .content .cell .cont-sub-tit,
@@ -21274,77 +21354,87 @@ html {
   background-color: #ededee;
   margin-top: 166.66666667vw;
 }
-.container000 .wrap.m002003,
-.container001 .wrap.m002003,
-.container002 .wrap.m002003,
-.container003 .wrap.m002003,
-.container004 .wrap.m002003,
-.container005 .wrap.m002003,
-.container001001 .wrap.m002003,
-.container001002 .wrap.m002003,
-.container001003 .wrap.m002003,
-.container001004 .wrap.m002003,
-.container002001 .wrap.m002003,
-.container002002 .wrap.m002003,
-.container002003 .wrap.m002003,
-.container002004 .wrap.m002003,
-.container004001 .wrap.m002003,
-.container004002 .wrap.m002003,
-.container004003 .wrap.m002003,
-.container004004 .wrap.m002003,
-.container004005 .wrap.m002003,
-.container005001 .wrap.m002003,
-.container005002 .wrap.m002003,
-.container004001001 .wrap.m002003,
-.container004001002 .wrap.m002003,
-.container004001003 .wrap.m002003,
-.container004001004 .wrap.m002003,
-.container004001005 .wrap.m002003,
-.container004001006 .wrap.m002003,
-.container004001007 .wrap.m002003,
-.container004001008 .wrap.m002003,
-.container004002001 .wrap.m002003,
-.container004002002 .wrap.m002003,
-.container004002003 .wrap.m002003,
-.container004002004 .wrap.m002003,
-.container004003001 .wrap.m002003,
-.container004003002 .wrap.m002003,
-.container004003003 .wrap.m002003,
-.container004003004 .wrap.m002003,
-.container004003005 .wrap.m002003,
-.container004003006 .wrap.m002003,
-.container004003007 .wrap.m002003,
-.container004003008 .wrap.m002003,
-.container004003009 .wrap.m002003,
-.container004003010 .wrap.m002003,
-.container004004001 .wrap.m002003,
-.container004004002 .wrap.m002003,
-.container004004003 .wrap.m002003,
-.container004004004 .wrap.m002003,
-.container004004005 .wrap.m002003,
-.container004004006 .wrap.m002003,
-.container004005001 .wrap.m002003,
-.container004005002 .wrap.m002003,
-.container004005003 .wrap.m002003,
-.container004005004 .wrap.m002003,
-.container004005005 .wrap.m002003,
-.container004005006 .wrap.m002003,
-.container004005007 .wrap.m002003,
-.container004005008 .wrap.m002003,
-.container005002001 .wrap.m002003,
-.container005002002 .wrap.m002003,
-.container005002003 .wrap.m002003,
-.container005002004 .wrap.m002003,
-.container005002005 .wrap.m002003,
-.container005002006 .wrap.m002003,
-.container005002007 .wrap.m002003,
-.container005002008 .wrap.m002003,
-.container005002009 .wrap.m002003 {
+.container000 .wrap.m002003:after,
+.container001 .wrap.m002003:after,
+.container002 .wrap.m002003:after,
+.container003 .wrap.m002003:after,
+.container004 .wrap.m002003:after,
+.container005 .wrap.m002003:after,
+.container001001 .wrap.m002003:after,
+.container001002 .wrap.m002003:after,
+.container001003 .wrap.m002003:after,
+.container001004 .wrap.m002003:after,
+.container002001 .wrap.m002003:after,
+.container002002 .wrap.m002003:after,
+.container002003 .wrap.m002003:after,
+.container002004 .wrap.m002003:after,
+.container004001 .wrap.m002003:after,
+.container004002 .wrap.m002003:after,
+.container004003 .wrap.m002003:after,
+.container004004 .wrap.m002003:after,
+.container004005 .wrap.m002003:after,
+.container005001 .wrap.m002003:after,
+.container005002 .wrap.m002003:after,
+.container004001001 .wrap.m002003:after,
+.container004001002 .wrap.m002003:after,
+.container004001003 .wrap.m002003:after,
+.container004001004 .wrap.m002003:after,
+.container004001005 .wrap.m002003:after,
+.container004001006 .wrap.m002003:after,
+.container004001007 .wrap.m002003:after,
+.container004001008 .wrap.m002003:after,
+.container004002001 .wrap.m002003:after,
+.container004002002 .wrap.m002003:after,
+.container004002003 .wrap.m002003:after,
+.container004002004 .wrap.m002003:after,
+.container004003001 .wrap.m002003:after,
+.container004003002 .wrap.m002003:after,
+.container004003003 .wrap.m002003:after,
+.container004003004 .wrap.m002003:after,
+.container004003005 .wrap.m002003:after,
+.container004003006 .wrap.m002003:after,
+.container004003007 .wrap.m002003:after,
+.container004003008 .wrap.m002003:after,
+.container004003009 .wrap.m002003:after,
+.container004003010 .wrap.m002003:after,
+.container004004001 .wrap.m002003:after,
+.container004004002 .wrap.m002003:after,
+.container004004003 .wrap.m002003:after,
+.container004004004 .wrap.m002003:after,
+.container004004005 .wrap.m002003:after,
+.container004004006 .wrap.m002003:after,
+.container004005001 .wrap.m002003:after,
+.container004005002 .wrap.m002003:after,
+.container004005003 .wrap.m002003:after,
+.container004005004 .wrap.m002003:after,
+.container004005005 .wrap.m002003:after,
+.container004005006 .wrap.m002003:after,
+.container004005007 .wrap.m002003:after,
+.container004005008 .wrap.m002003:after,
+.container005002001 .wrap.m002003:after,
+.container005002002 .wrap.m002003:after,
+.container005002003 .wrap.m002003:after,
+.container005002004 .wrap.m002003:after,
+.container005002005 .wrap.m002003:after,
+.container005002006 .wrap.m002003:after,
+.container005002007 .wrap.m002003:after,
+.container005002008 .wrap.m002003:after,
+.container005002009 .wrap.m002003:after {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 177.12962963vw;
+  background-repeat: no-repeat;
   background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002003_bg.jpg');
   background-size: contain;
-  background-repeat: no-repeat;
-  height: auto;
-  padding-bottom: 0vw;
+  position: absolute;
+  left: 50%;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+  width: 170%;
+  height: 324.07407407vw;
 }
 .container000 .wrap.m002003 article,
 .container001 .wrap.m002003 article,
@@ -22288,6 +22378,7 @@ html {
   box-sizing: border-box;
   background-color: #f3f4f4;
   text-align: left;
+  margin-bottom: 9.25925926vw;
 }
 .container000 .wrap.m002003 article .content .cell .c-tit,
 .container001 .wrap.m002003 article .content .cell .c-tit,
@@ -22570,9 +22661,9 @@ html {
 .container005002007 .wrap.m002003 article .content .cell .img2,
 .container005002008 .wrap.m002003 article .content .cell .img2,
 .container005002009 .wrap.m002003 article .content .cell .img2 {
-  width: 87.03703704vw;
+  width: 100vw;
   height: 27.77777778vw;
-  margin-left: 0vw;
+  margin-left: -6.48148148vw;
 }
 .container000 .wrap.m002003 article .content .txt,
 .container001 .wrap.m002003 article .content .txt,
@@ -22715,14 +22806,6 @@ html {
   font-family: "Samsung Sharp Sans Bold", sans-serif;
   margin-top: 0vw;
   text-align: left;
-  background-color: #fff;
-  width: 100vw;
-  margin-left: -6.48148148vw;
-  padding-top: 0vw;
-  padding-right: 6.48148148vw;
-  padding-bottom: 0vw;
-  padding-left: 6.48148148vw;
-  box-sizing: border-box;
 }
 .container000 .wrap.m002003 article .content .cont-p,
 .container001 .wrap.m002003 article .content .cont-p,
@@ -22794,157 +22877,88 @@ html {
   line-height: 4.07407407vw;
   font-family: SamsungOne, sans-serif;
   color: #404040;
-  padding-top: 2.77777778vw;
+  margin-top: 2.77777778vw;
   text-align: left;
-  background-color: #fff;
-  width: 100vw;
-  margin-left: -6.48148148vw;
-  padding-top: 0vw;
-  padding-right: 6.48148148vw;
-  padding-bottom: 0vw;
-  padding-left: 6.48148148vw;
-  box-sizing: border-box;
 }
-.container000 .wrap.m002003 article .content .cont-sub-tit1,
-.container001 .wrap.m002003 article .content .cont-sub-tit1,
-.container002 .wrap.m002003 article .content .cont-sub-tit1,
-.container003 .wrap.m002003 article .content .cont-sub-tit1,
-.container004 .wrap.m002003 article .content .cont-sub-tit1,
-.container005 .wrap.m002003 article .content .cont-sub-tit1,
-.container001001 .wrap.m002003 article .content .cont-sub-tit1,
-.container001002 .wrap.m002003 article .content .cont-sub-tit1,
-.container001003 .wrap.m002003 article .content .cont-sub-tit1,
-.container001004 .wrap.m002003 article .content .cont-sub-tit1,
-.container002001 .wrap.m002003 article .content .cont-sub-tit1,
-.container002002 .wrap.m002003 article .content .cont-sub-tit1,
-.container002003 .wrap.m002003 article .content .cont-sub-tit1,
-.container002004 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001 .wrap.m002003 article .content .cont-sub-tit1,
-.container004002 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003 .wrap.m002003 article .content .cont-sub-tit1,
-.container004004 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005 .wrap.m002003 article .content .cont-sub-tit1,
-.container005001 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001001 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001002 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001003 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001004 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001005 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001006 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001007 .wrap.m002003 article .content .cont-sub-tit1,
-.container004001008 .wrap.m002003 article .content .cont-sub-tit1,
-.container004002001 .wrap.m002003 article .content .cont-sub-tit1,
-.container004002002 .wrap.m002003 article .content .cont-sub-tit1,
-.container004002003 .wrap.m002003 article .content .cont-sub-tit1,
-.container004002004 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003001 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003002 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003003 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003004 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003005 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003006 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003007 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003008 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003009 .wrap.m002003 article .content .cont-sub-tit1,
-.container004003010 .wrap.m002003 article .content .cont-sub-tit1,
-.container004004001 .wrap.m002003 article .content .cont-sub-tit1,
-.container004004002 .wrap.m002003 article .content .cont-sub-tit1,
-.container004004003 .wrap.m002003 article .content .cont-sub-tit1,
-.container004004004 .wrap.m002003 article .content .cont-sub-tit1,
-.container004004005 .wrap.m002003 article .content .cont-sub-tit1,
-.container004004006 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005001 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005002 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005003 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005004 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005005 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005006 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005007 .wrap.m002003 article .content .cont-sub-tit1,
-.container004005008 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002001 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002002 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002003 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002004 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002005 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002006 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002007 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002008 .wrap.m002003 article .content .cont-sub-tit1,
-.container005002009 .wrap.m002003 article .content .cont-sub-tit1 {
-  padding-top: 9.25925926vw;
-}
-.container000 .wrap.m002004,
-.container001 .wrap.m002004,
-.container002 .wrap.m002004,
-.container003 .wrap.m002004,
-.container004 .wrap.m002004,
-.container005 .wrap.m002004,
-.container001001 .wrap.m002004,
-.container001002 .wrap.m002004,
-.container001003 .wrap.m002004,
-.container001004 .wrap.m002004,
-.container002001 .wrap.m002004,
-.container002002 .wrap.m002004,
-.container002003 .wrap.m002004,
-.container002004 .wrap.m002004,
-.container004001 .wrap.m002004,
-.container004002 .wrap.m002004,
-.container004003 .wrap.m002004,
-.container004004 .wrap.m002004,
-.container004005 .wrap.m002004,
-.container005001 .wrap.m002004,
-.container005002 .wrap.m002004,
-.container004001001 .wrap.m002004,
-.container004001002 .wrap.m002004,
-.container004001003 .wrap.m002004,
-.container004001004 .wrap.m002004,
-.container004001005 .wrap.m002004,
-.container004001006 .wrap.m002004,
-.container004001007 .wrap.m002004,
-.container004001008 .wrap.m002004,
-.container004002001 .wrap.m002004,
-.container004002002 .wrap.m002004,
-.container004002003 .wrap.m002004,
-.container004002004 .wrap.m002004,
-.container004003001 .wrap.m002004,
-.container004003002 .wrap.m002004,
-.container004003003 .wrap.m002004,
-.container004003004 .wrap.m002004,
-.container004003005 .wrap.m002004,
-.container004003006 .wrap.m002004,
-.container004003007 .wrap.m002004,
-.container004003008 .wrap.m002004,
-.container004003009 .wrap.m002004,
-.container004003010 .wrap.m002004,
-.container004004001 .wrap.m002004,
-.container004004002 .wrap.m002004,
-.container004004003 .wrap.m002004,
-.container004004004 .wrap.m002004,
-.container004004005 .wrap.m002004,
-.container004004006 .wrap.m002004,
-.container004005001 .wrap.m002004,
-.container004005002 .wrap.m002004,
-.container004005003 .wrap.m002004,
-.container004005004 .wrap.m002004,
-.container004005005 .wrap.m002004,
-.container004005006 .wrap.m002004,
-.container004005007 .wrap.m002004,
-.container004005008 .wrap.m002004,
-.container005002001 .wrap.m002004,
-.container005002002 .wrap.m002004,
-.container005002003 .wrap.m002004,
-.container005002004 .wrap.m002004,
-.container005002005 .wrap.m002004,
-.container005002006 .wrap.m002004,
-.container005002007 .wrap.m002004,
-.container005002008 .wrap.m002004,
-.container005002009 .wrap.m002004 {
-  background-repeat: no-repeat;
+.container000 .wrap.m002004:after,
+.container001 .wrap.m002004:after,
+.container002 .wrap.m002004:after,
+.container003 .wrap.m002004:after,
+.container004 .wrap.m002004:after,
+.container005 .wrap.m002004:after,
+.container001001 .wrap.m002004:after,
+.container001002 .wrap.m002004:after,
+.container001003 .wrap.m002004:after,
+.container001004 .wrap.m002004:after,
+.container002001 .wrap.m002004:after,
+.container002002 .wrap.m002004:after,
+.container002003 .wrap.m002004:after,
+.container002004 .wrap.m002004:after,
+.container004001 .wrap.m002004:after,
+.container004002 .wrap.m002004:after,
+.container004003 .wrap.m002004:after,
+.container004004 .wrap.m002004:after,
+.container004005 .wrap.m002004:after,
+.container005001 .wrap.m002004:after,
+.container005002 .wrap.m002004:after,
+.container004001001 .wrap.m002004:after,
+.container004001002 .wrap.m002004:after,
+.container004001003 .wrap.m002004:after,
+.container004001004 .wrap.m002004:after,
+.container004001005 .wrap.m002004:after,
+.container004001006 .wrap.m002004:after,
+.container004001007 .wrap.m002004:after,
+.container004001008 .wrap.m002004:after,
+.container004002001 .wrap.m002004:after,
+.container004002002 .wrap.m002004:after,
+.container004002003 .wrap.m002004:after,
+.container004002004 .wrap.m002004:after,
+.container004003001 .wrap.m002004:after,
+.container004003002 .wrap.m002004:after,
+.container004003003 .wrap.m002004:after,
+.container004003004 .wrap.m002004:after,
+.container004003005 .wrap.m002004:after,
+.container004003006 .wrap.m002004:after,
+.container004003007 .wrap.m002004:after,
+.container004003008 .wrap.m002004:after,
+.container004003009 .wrap.m002004:after,
+.container004003010 .wrap.m002004:after,
+.container004004001 .wrap.m002004:after,
+.container004004002 .wrap.m002004:after,
+.container004004003 .wrap.m002004:after,
+.container004004004 .wrap.m002004:after,
+.container004004005 .wrap.m002004:after,
+.container004004006 .wrap.m002004:after,
+.container004005001 .wrap.m002004:after,
+.container004005002 .wrap.m002004:after,
+.container004005003 .wrap.m002004:after,
+.container004005004 .wrap.m002004:after,
+.container004005005 .wrap.m002004:after,
+.container004005006 .wrap.m002004:after,
+.container004005007 .wrap.m002004:after,
+.container004005008 .wrap.m002004:after,
+.container005002001 .wrap.m002004:after,
+.container005002002 .wrap.m002004:after,
+.container005002003 .wrap.m002004:after,
+.container005002004 .wrap.m002004:after,
+.container005002005 .wrap.m002004:after,
+.container005002006 .wrap.m002004:after,
+.container005002007 .wrap.m002004:after,
+.container005002008 .wrap.m002004:after,
+.container005002009 .wrap.m002004:after {
+  content: '';
+  display: block;
   background-image: url('http://www.vo-mm.com/Samsung/M-Catalogue-v2/img/002004_00.jpg');
   background-size: contain;
-  background-repeat: repeat;
-  height: auto;
-  padding-bottom: 0vw;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+  width: 170%;
+  height: 324.07407407vw;
 }
 .container000 .wrap.m002004 article,
 .container001 .wrap.m002004 article,
@@ -23950,7 +23964,6 @@ html {
   padding-bottom: 3.7037037vw;
   padding-left: 0vw;
   box-sizing: border-box;
-  background-color: #fff;
 }
 .container000 .wrap.m002004 article .content .cell .cont-sub-tit,
 .container001 .wrap.m002004 article .content .cell .cont-sub-tit,
@@ -24449,14 +24462,11 @@ html {
 .container005002007 .wrap.m002004 article .content .txt2,
 .container005002008 .wrap.m002004 article .content .txt2,
 .container005002009 .wrap.m002004 article .content .txt2 {
-  box-sizing: border-box;
-  width: 100vw;
-  margin-left: -6.48148148vw;
-  background-color: #fff;
   padding-top: 7.40740741vw;
-  padding-right: 6.48148148vw;
+  padding-right: 0vw;
   padding-bottom: 9.25925926vw;
-  padding-left: 6.48148148vw;
+  padding-left: 0vw;
+  box-sizing: border-box;
 }
 .container000 .wrap.m004,
 .container001 .wrap.m004,
@@ -24663,10 +24673,9 @@ html {
 .container005002007 .wrap.m004 article .visual h2,
 .container005002008 .wrap.m004 article .visual h2,
 .container005002009 .wrap.m004 article .visual h2 {
-  font-size: 7.40740741vw;
-  line-height: 8.7962963vw;
+  font-size: 8.14814815vw;
+  line-height: 9.72222222vw;
   mix-blend-mode: normal;
-  white-space: nowrap;
 }
 .container000 .wrap.m004 article .content,
 .container001 .wrap.m004 article .content,
@@ -28228,4 +28237,4 @@ html {
     height: 305.46296296vw;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-edit.css.map */
